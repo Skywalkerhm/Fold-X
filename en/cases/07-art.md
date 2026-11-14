@@ -56,4 +56,4 @@ These are early demonstrations of art appreciation, not a professional competenc
 
 The public antique video obscures connection details in a confirmation dialog. The sequence, duration, and displayed findings are unchanged.
 
-[Open case player](07-art.html) · [Explore all cases](../index.html#cases) · [GitHub overview](../README.md)
+[Open case player](https://skywalkerhm.github.io/Fold-X/en/cases/07-art.html) · [Explore all cases](https://skywalkerhm.github.io/Fold-X/en/index.html#cases) · [GitHub overview](../README.md)

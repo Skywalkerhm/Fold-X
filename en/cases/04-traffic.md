@@ -45,4 +45,4 @@ This is a simulation and replay, not evidence of a city deployment or global opt
 
 ![Final state and comparison status](../../assets/cases/traffic/final-state.jpg)
 
-[Open case player](04-traffic.html) · [Explore all cases](../index.html#cases) · [GitHub overview](../README.md)
+[Open case player](https://skywalkerhm.github.io/Fold-X/en/cases/04-traffic.html) · [Explore all cases](https://skywalkerhm.github.io/Fold-X/en/index.html#cases) · [GitHub overview](../README.md)

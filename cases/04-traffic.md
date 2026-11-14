@@ -43,4 +43,4 @@ Fold-X 根据仿真中不断更新的车流，参与 62 个路口的信号决策
 
 ![结束状态及对照标记](../assets/cases/traffic/final-state.jpg)
 
-[打开案例播放器](04-traffic.html) · [浏览全部案例](../index.html#cases) · [返回 GitHub 首页](../README.md)
+[打开案例播放器](https://skywalkerhm.github.io/Fold-X/cases/04-traffic.html) · [浏览全部案例](https://skywalkerhm.github.io/Fold-X/index.html#cases) · [返回 GitHub 首页](../README.md)

@@ -57,4 +57,4 @@ Both public edits retain the original sequence and audio of the included scenes.
 - Sample film: “Tears of Steel” by Blender Foundation, [mango.blender.org](https://mango.blender.org/), licensed under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/). Videos and screenshots contain excerpts.
 - Monitoring footage: the original credits identify it as replayed Pexels footage.
 
-[Open case player](05-visual.html) · [Explore all cases](../index.html#cases) · [GitHub overview](../README.md)
+[Open case player](https://skywalkerhm.github.io/Fold-X/en/cases/05-visual.html) · [Explore all cases](https://skywalkerhm.github.io/Fold-X/en/index.html#cases) · [GitHub overview](../README.md)

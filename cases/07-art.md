@@ -54,4 +54,4 @@
 
 古董观察展示视频已遮去确认弹窗中的服务连接信息；片段顺序、时长和结果内容保持不变。
 
-[打开案例播放器](07-art.html) · [浏览全部案例](../index.html#cases) · [返回 GitHub 首页](../README.md)
+[打开案例播放器](https://skywalkerhm.github.io/Fold-X/cases/07-art.html) · [浏览全部案例](https://skywalkerhm.github.io/Fold-X/index.html#cases) · [返回 GitHub 首页](../README.md)

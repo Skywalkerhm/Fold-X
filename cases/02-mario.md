@@ -45,4 +45,4 @@
 
 展示版保留游戏、当前状态与动作选择，遮去面板底部的技术说明。
 
-[打开案例播放器](02-mario.html) · [浏览全部案例](../index.html#cases) · [返回 GitHub 首页](../README.md)
+[打开案例播放器](https://skywalkerhm.github.io/Fold-X/cases/02-mario.html) · [浏览全部案例](https://skywalkerhm.github.io/Fold-X/index.html#cases) · [返回 GitHub 首页](../README.md)

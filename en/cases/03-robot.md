@@ -46,4 +46,4 @@ This is an Unreal Engine simulation. It does not establish deployment on a physi
 
 ![Moving on when conditions allow](../../assets/cases/robot/continue.jpg)
 
-[Open case player](03-robot.html) · [Explore all cases](../index.html#cases) · [GitHub overview](../README.md)
+[Open case player](https://skywalkerhm.github.io/Fold-X/en/cases/03-robot.html) · [Explore all cases](https://skywalkerhm.github.io/Fold-X/en/index.html#cases) · [GitHub overview](../README.md)

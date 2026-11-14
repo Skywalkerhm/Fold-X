@@ -6,7 +6,7 @@
 
 Fold-X is a multimodal decision model built for accuracy, speed, and efficiency. It turns text and images into judgments, choices, and scores your application can use. Flash-1.3 text and image APIs are available now.
 
-[Request API access](docs/contact.md) · [API guide](docs/api.md) · [FAQ](docs/faq.md) · [Full showcase](index.html)
+[Request API access](docs/contact.md) · [API guide](docs/api.md) · [FAQ](docs/faq.md) · [Full showcase](https://skywalkerhm.github.io/Fold-X/en/index.html)
 
 ## 01 · Benchmark results
 
@@ -104,7 +104,7 @@ Fold-X Flash plays White against DeepSeek on a 19×19 Go board. The game shows a
 
 [![Go](../assets/cases/go/result.jpg)](../assets/cases/go/fold-x-go-5x.mp4)
 
-[Video and key frames](cases/01-go.md) · [Open player](cases/01-go.html)
+[Video and key frames](cases/01-go.md) · [Open player](https://skywalkerhm.github.io/Fold-X/en/cases/01-go.html)
 
 ### 02 · Super Mario — Fast, effective action selection
 
@@ -112,7 +112,7 @@ With enemies moving, terrain changing, and limited time to act, Fold-X repeatedl
 
 [![Super Mario](../assets/cases/mario/jump.jpg)](../assets/cases/mario/fold-x-mario-5x.mp4)
 
-[Video and key frames](cases/02-mario.md) · [Open player](cases/02-mario.html)
+[Video and key frames](cases/02-mario.md) · [Open player](https://skywalkerhm.github.io/Fold-X/en/cases/02-mario.html)
 
 ### 03 · Robot courier — Continuous decisions in complex environments
 
@@ -120,7 +120,7 @@ In an Unreal Engine delivery simulation, the robot receives a destination while 
 
 [![Robot courier](../assets/cases/robot/wait-for-signal.jpg)](../assets/cases/robot/fold-x-robot-delivery.mp4)
 
-[Video and key frames](cases/03-robot.md) · [Open player](cases/03-robot.html)
+[Video and key frames](cases/03-robot.md) · [Open player](https://skywalkerhm.github.io/Fold-X/en/cases/03-robot.html)
 
 ### 04 · Traffic signal coordination — Coordinating multiple decision points
 
@@ -128,7 +128,7 @@ Fold-X participates in signal decisions across 62 intersections as simulated tra
 
 [![Traffic signal coordination](../assets/cases/traffic/overview.jpg)](../assets/cases/traffic/fold-x-traffic-62.mp4)
 
-[Video and key frames](cases/04-traffic.md) · [Open player](cases/04-traffic.html)
+[Video and key frames](cases/04-traffic.md) · [Open player](https://skywalkerhm.github.io/Fold-X/en/cases/04-traffic.html)
 
 ### 05 · Natural-language visual search — Connecting language to visual content
 
@@ -136,7 +136,7 @@ Describe an object, an activity, or a combination of conditions in natural langu
 
 [![Natural-language visual search](../assets/cases/visual/monitor-results.jpg)](cases/05-visual.md)
 
-[Video and key frames](cases/05-visual.md) · [Open player](cases/05-visual.html)
+[Video and key frames](cases/05-visual.md) · [Open player](https://skywalkerhm.github.io/Fold-X/en/cases/05-visual.html)
 
 ### 06 · Reference-image search — Using an image to guide recognition and judgment
 
@@ -144,7 +144,7 @@ A reference image provides the visual target. The application compares it with a
 
 [![Reference-image search](../assets/cases/image-search/processing-speed.jpg)](../assets/cases/image-search/fold-x-image-search.mp4)
 
-[Video and key frames](cases/06-image-search.md) · [Open player](cases/06-image-search.html)
+[Video and key frames](cases/06-image-search.md) · [Open player](https://skywalkerhm.github.io/Fold-X/en/cases/06-image-search.html)
 
 ### 07 · Art appreciation and antique observation — Aesthetic interpretation and attention to detail
 
@@ -152,7 +152,7 @@ The art demo explores how lines, color, composition, and spatial relationships s
 
 [![Art appreciation and antique observation](../assets/cases/art/interpretation.jpg)](cases/07-art.md)
 
-[Video and key frames](cases/07-art.md) · [Open player](cases/07-art.html)
+[Video and key frames](cases/07-art.md) · [Open player](https://skywalkerhm.github.io/Fold-X/en/cases/07-art.html)
 
 ## Get started
 

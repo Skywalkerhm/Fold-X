@@ -55,4 +55,4 @@
 - 示例影片：Blender Foundation — “Tears of Steel”，[mango.blender.org](https://mango.blender.org/)，[CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)。视频与截图包含影片节选。
 - 监控演示：原片标注使用 Pexels 素材回放。
 
-[打开案例播放器](05-visual.html) · [浏览全部案例](../index.html#cases) · [返回 GitHub 首页](../README.md)
+[打开案例播放器](https://skywalkerhm.github.io/Fold-X/cases/05-visual.html) · [浏览全部案例](https://skywalkerhm.github.io/Fold-X/index.html#cases) · [返回 GitHub 首页](../README.md)

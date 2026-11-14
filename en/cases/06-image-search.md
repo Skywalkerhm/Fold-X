@@ -45,4 +45,4 @@ This is a demonstration of a partial scan, not evidence of full-search duration,
 
 ![Candidates and their timestamps](../../assets/cases/image-search/candidates.jpg)
 
-[Open case player](06-image-search.html) · [Explore all cases](../index.html#cases) · [GitHub overview](../README.md)
+[Open case player](https://skywalkerhm.github.io/Fold-X/en/cases/06-image-search.html) · [Explore all cases](https://skywalkerhm.github.io/Fold-X/en/index.html#cases) · [GitHub overview](../README.md)

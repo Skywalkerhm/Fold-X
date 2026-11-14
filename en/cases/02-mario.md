@@ -47,4 +47,4 @@ The recording illustrates action timing and outcomes. It does not establish a su
 
 The public edit retains the game, current state, and action choices. Technical annotations at the bottom of the side panel are obscured.
 
-[Open case player](02-mario.html) · [Explore all cases](../index.html#cases) · [GitHub overview](../README.md)
+[Open case player](https://skywalkerhm.github.io/Fold-X/en/cases/02-mario.html) · [Explore all cases](https://skywalkerhm.github.io/Fold-X/en/index.html#cases) · [GitHub overview](../README.md)

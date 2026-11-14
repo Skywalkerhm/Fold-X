@@ -75,4 +75,4 @@ See the [frozen results repository](https://github.com/Hanno-Labs/decision-bench
 
 These results describe the specified model versions on this benchmark. They do not establish an advantage on every task, or support claims about token consumption, cost, or Chinese-language performance. Pro has no verifiable full submission in this review; its position remains a conditional estimate.
 
-[Back to the English GitHub overview](../README.md) · [Open the full showcase](../index.html)
+[Back to the English GitHub overview](../README.md) · [Open the full showcase](https://skywalkerhm.github.io/Fold-X/en/index.html)

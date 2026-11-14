@@ -44,4 +44,4 @@
 
 ![条件变化后继续行进](../assets/cases/robot/continue.jpg)
 
-[打开案例播放器](03-robot.html) · [浏览全部案例](../index.html#cases) · [返回 GitHub 首页](../README.md)
+[打开案例播放器](https://skywalkerhm.github.io/Fold-X/cases/03-robot.html) · [浏览全部案例](https://skywalkerhm.github.io/Fold-X/index.html#cases) · [返回 GitHub 首页](../README.md)

@@ -6,7 +6,7 @@
 
 Fold-X 是多模态决策模型，将文字与图像转化为应用可用的判断、选择与评分。当前已提供 Flash-1.3 文字与图像 API。
 
-[申请 API 试用](docs/contact.md) · [接入说明](docs/api.md) · [常见问题](docs/faq.md) · [完整预览](index.html)
+[申请 API 试用](docs/contact.md) · [接入说明](docs/api.md) · [常见问题](docs/faq.md) · [完整预览](https://skywalkerhm.github.io/Fold-X/index.html)
 
 ## 01 · 评测成绩
 
@@ -104,7 +104,7 @@ Fold-X Flash 执白，与 DeepSeek 执黑进行 19×19 围棋对弈。通过连�
 
 [![围棋对弈](assets/cases/go/result.jpg)](assets/cases/go/fold-x-go-5x.mp4)
 
-[观看视频与关键截图](cases/01-go.md) · [打开播放器](cases/01-go.html)
+[观看视频与关键截图](cases/01-go.md) · [打开播放器](https://skywalkerhm.github.io/Fold-X/cases/01-go.html)
 
 ### 02 · 超级玛丽｜快速准确的行动决策
 
@@ -112,7 +112,7 @@ Fold-X Flash 执白，与 DeepSeek 执黑进行 19×19 围棋对弈。通过连�
 
 [![超级玛丽](assets/cases/mario/jump.jpg)](assets/cases/mario/fold-x-mario-5x.mp4)
 
-[观看视频与关键截图](cases/02-mario.md) · [打开播放器](cases/02-mario.html)
+[观看视频与关键截图](cases/02-mario.md) · [打开播放器](https://skywalkerhm.github.io/Fold-X/cases/02-mario.html)
 
 ### 03 · 机器人快递员｜复杂环境中的连续决策
 
@@ -120,7 +120,7 @@ Fold-X Flash 执白，与 DeepSeek 执黑进行 19×19 围棋对弈。通过连�
 
 [![机器人快递员](assets/cases/robot/wait-for-signal.jpg)](assets/cases/robot/fold-x-robot-delivery.mp4)
 
-[观看视频与关键截图](cases/03-robot.md) · [打开播放器](cases/03-robot.html)
+[观看视频与关键截图](cases/03-robot.md) · [打开播放器](https://skywalkerhm.github.io/Fold-X/cases/03-robot.html)
 
 ### 04 · 交通信号调度｜多个决策点的协同
 
@@ -128,7 +128,7 @@ Fold-X 根据仿真中不断更新的车流，参与 62 个路口的信号决策
 
 [![交通信号调度](assets/cases/traffic/overview.jpg)](assets/cases/traffic/fold-x-traffic-62.mp4)
 
-[观看视频与关键截图](cases/04-traffic.md) · [打开播放器](cases/04-traffic.html)
+[观看视频与关键截图](cases/04-traffic.md) · [打开播放器](https://skywalkerhm.github.io/Fold-X/cases/04-traffic.html)
 
 ### 05 · 画面监控与视频搜索｜自然语言理解画面
 
@@ -136,7 +136,7 @@ Fold-X 根据仿真中不断更新的车流，参与 62 个路口的信号决策
 
 [![画面监控与视频搜索](assets/cases/visual/monitor-results.jpg)](cases/05-visual.md)
 
-[观看视频与关键截图](cases/05-visual.md) · [打开播放器](cases/05-visual.html)
+[观看视频与关键截图](cases/05-visual.md) · [打开播放器](https://skywalkerhm.github.io/Fold-X/cases/05-visual.html)
 
 ### 06 · 参考图片检索｜以图理解、识别与判断
 
@@ -144,7 +144,7 @@ Fold-X 根据仿真中不断更新的车流，参与 62 个路口的信号决策
 
 [![参考图片检索](assets/cases/image-search/processing-speed.jpg)](assets/cases/image-search/fold-x-image-search.mp4)
 
-[观看视频与关键截图](cases/06-image-search.md) · [打开播放器](cases/06-image-search.html)
+[观看视频与关键截图](cases/06-image-search.md) · [打开播放器](https://skywalkerhm.github.io/Fold-X/cases/06-image-search.html)
 
 ### 07 · 艺术鉴赏与古董观察｜审美理解与细节鉴察
 
@@ -152,7 +152,7 @@ Fold-X 根据仿真中不断更新的车流，参与 62 个路口的信号决策
 
 [![艺术鉴赏与古董观察](assets/cases/art/interpretation.jpg)](cases/07-art.md)
 
-[观看视频与关键截图](cases/07-art.md) · [打开播放器](cases/07-art.html)
+[观看视频与关键截图](cases/07-art.md) · [打开播放器](https://skywalkerhm.github.io/Fold-X/cases/07-art.html)
 
 ## 试用与联系
 
