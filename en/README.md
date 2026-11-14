@@ -86,7 +86,7 @@ Team evaluation summary dated October 20, 2026. Scores apply to the specified ta
 
 ## Research behind the work
 
-Three public preprints document the team's research on inference quality, efficiency evaluation, and mathematical task performance. They provide research context, rather than certification of the current Fold-X API or the seven demos.
+Three public preprints document the team's research on inference quality, efficiency evaluation, and mathematical task performance. They provide research context, rather than certification of the current Fold-X API or the eight demos.
 
 - **[Virtual MoE — inference quality and reliability](https://arxiv.org/abs/2504.03739)**: studies inference quality and hallucination mitigation in a small-model setting. Its reported findings are specific to the evaluated model and tasks.
 - **[SemanticFold — evaluating efficiency and capability together](https://arxiv.org/abs/2610.10304)**: examines whether different capability measures are preserved under compression. The measures can move in different directions; a gain in one does not establish a gain in all.
@@ -94,13 +94,13 @@ Three public preprints document the team's research on inference quality, effici
 
 These are arXiv preprints, not evidence of peer-review acceptance or independent product certification. Consult each paper for its experimental conditions and limitations. No unpublished implementation details are included here.
 
-## 03 · Seven capabilities to explore
+## 03 · Eight capabilities to explore
 
 **Decision-making:** strategic judgment → timely action → complex environments → coordination across multiple decision points.
 
-**Visual understanding:** language-guided scene understanding → reference-image recognition → aesthetic interpretation and close observation.
+**Visual understanding:** language-guided scene understanding → reference-image recognition → aesthetic interpretation → fine-detail recognition.
 
-The first four cases explore how to act. The next three take a closer look at how visual information can inform a judgment. This is a narrative progression through applications, not a set of certified capability levels from a single benchmark.
+The first four cases explore how to act. The next four take a closer look at how visual information can inform a judgment. This is a narrative progression through applications, not a set of certified capability levels from a single benchmark.
 
 Speed matters throughout: a decision needs to arrive in time to be useful. Playback speed, displayed throughput, model latency, and cloud API latency are reported separately rather than treated as interchangeable.
 
@@ -161,6 +161,16 @@ The art demo explores how lines, color, composition, and spatial relationships s
 [![Art appreciation and antique observation](../assets/cases/art/interpretation.jpg)](cases/07-art.md)
 
 [Video and key frames](cases/07-art.md) · [Open player](https://skywalkerhm.github.io/Fold-X/en/cases/07-art.html)
+
+### 08 · Small-target & fine-detail recognition — Hair detection on bedding
+
+The application searches bedding footage for fine, low-contrast hair candidates among fabric textures and folds, marks their locations, and opens enlarged views for review. The demo connects visual observation with inspectable evidence.
+
+Turn details that require frame-by-frame searching into candidate locations for human review and records, with potential pilots in linen inspection and textile foreign-material screening.
+
+[![Small-target & fine-detail recognition](../assets/cases/fine-detail/candidates.jpg)](../assets/cases/fine-detail/fold-x-fine-detail.mp4)
+
+[Video, key frames, and application scope](cases/08-fine-detail.md) · [Open player](https://skywalkerhm.github.io/Fold-X/en/cases/08-fine-detail.html)
 
 ## Get started
 
