@@ -10,3 +10,18 @@ tr.foldx-insert>td{padding:12px 0;border:0;background:transparent}.submission-ca
 .pro-reference{margin:18px 0;border-color:#9b742e;background:#fff6e4;color:#513c16}.pro-reference .submission-score{color:#785719}.pro-reference p{font-size:14px;margin:8px 0 0}
 
 tr.pro-insert .pro-reference{margin:0 10px 0 22px}@media(max-width:700px){tr.pro-insert .pro-reference{margin-left:8px;margin-right:0}}
+
+/* Mobile benchmark rows: keep scores visible and move sources below model names. */
+@media(max-width:700px){
+.benchmark-reference,.benchmark-reference tbody{display:block;width:100%}
+.benchmark-reference tr:not(.foldx-insert){display:grid;grid-template-columns:32px minmax(0,1fr) 76px;width:100%;border-bottom:1px solid #dce3da;align-items:start}
+.benchmark-reference th,.benchmark-reference td{display:block;min-width:0;padding:10px 6px;border:0;overflow-wrap:anywhere}
+.benchmark-reference th:first-child{font-size:12px;padding-left:0;padding-right:0}
+.benchmark-reference td:first-child{align-self:center}
+.benchmark-reference th:nth-child(3),.benchmark-reference td:nth-child(3){text-align:right;white-space:nowrap;overflow-wrap:normal;padding-right:0}
+.benchmark-reference th:nth-child(4){display:none}
+.benchmark-reference td:nth-child(4){grid-column:2/4;padding-top:0;font-size:13px}
+.benchmark-reference tr.foldx-insert,.benchmark-reference tr.foldx-insert>td{display:block;width:100%}
+.benchmark-reference tr.foldx-insert>td{padding:12px 0}
+.benchmark-reference .submission-card,.benchmark-reference tr.pro-insert .pro-reference{margin:0;width:100%;box-sizing:border-box}
+}
