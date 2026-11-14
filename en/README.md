@@ -17,7 +17,6 @@ Full **DecisionBench 1.0 evaluation: 23,900 questions**. The following are autho
 | **Fold-X Flash (9B)** | **76.85%** | **Between archived ranks 3–4** | [Submission #85](https://github.com/Hanno-Labs/decision-bench-results/pull/85) |
 | **Fold-X Light (4B)** | **74.48%** | **Between archived ranks 5–6** | [Submission #82](https://github.com/Hanno-Labs/decision-bench-results/pull/82) |
 
-
 [Task breakdown, comparisons, and ranking methodology →](benchmarks/decisionbench.md)
 
 ### Archived Top 10 · submitted scores shown separately
@@ -26,7 +25,7 @@ Full **DecisionBench 1.0 evaluation: 23,900 questions**. The following are autho
 |---:|---|---:|---|
 |1|Hanno-Labs/bosun-v3.1-1.7b|84.90%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |2|Hanno-Labs/bosun-v3.1-0.6b|81.18%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
-|**↳ Local reference**|**Fold-X Pro (27B · Reasoning)**|**80.04%**|**LOCAL TEST · NOT OFFICIALLY LISTED** · Reference score between archived ranks 2 and 3 (81.18% / 79.69%); not an official rank.|
+|**↳ Local reference**|**Fold-X Pro (27B · Reasoning mode)**|**80.04%**|**Local test · Not officially listed** · Score reference: between archived ranks 2–3.|
 |3|mohit67890/imajev-4b|79.69%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |**↳ Reference only**|**Fold-X Flash (9B · 1.3 Deep)**|**76.85%**|**[Submitted, not yet listed](https://github.com/Hanno-Labs/decision-bench-results/pull/85)**|
 |4|EldanRing/Winnow-12B|76.65%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
@@ -37,9 +36,6 @@ Full **DecisionBench 1.0 evaluation: 23,900 questions**. The following are autho
 |8|deepseek/deepseek-v4.1-flash|71.00%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |9|openai/gpt-5.6-luna|69.90%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |10|razorback16/openjev|68.43%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
-
-
-
 
 The numbered rows are the Top 10 among 59 current entries in the November 14, 2026 main-branch archive. Flash and Light scores are inserted between adjacent scores for reference only: submitted, not yet listed, and excluded from leaderboard numbering. These are historical positions, not a live leaderboard.
 
@@ -107,7 +103,6 @@ These are arXiv preprints, not evidence of peer-review acceptance or independent
 The first four cases explore how to act. The next three take a closer look at how visual information can inform a judgment. This is a narrative progression through applications, not a set of certified capability levels from a single benchmark.
 
 Speed matters throughout: a decision needs to arrive in time to be useful. Playback speed, displayed throughput, model latency, and cloud API latency are reported separately rather than treated as interchangeable.
-
 
 These recordings show application behavior. Individual runs, simulations, and momentary interface readings are not general accuracy or performance guarantees. The evidence limits are stated in each case. Videos and screenshots retain their original on-screen language and audio; the surrounding text and captions are in English.
 

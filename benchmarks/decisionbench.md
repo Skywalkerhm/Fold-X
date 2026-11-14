@@ -21,7 +21,7 @@
 |---:|---|---:|---|
 |1|Hanno-Labs/bosun-v3.1-1.7b|84.90%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |2|Hanno-Labs/bosun-v3.1-0.6b|81.18%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
-|**↳ 本地测试参考**|**Fold-X Pro（27B · 推理模式）**|**80.04%**|**本地测试 · 非官方收录** · 分数参考位于主榜第 2–3 名之间（81.18% / 79.69%），不代表官方名次。|
+|**↳ 本地测试参考**|**Fold-X Pro（27B · 推理模式）**|**80.04%**|**本地测试 · 非官方收录** · 分数参考：位于主榜第 2–3 名之间。|
 |3|mohit67890/imajev-4b|79.69%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |**↳ 参考插入**|**Fold-X Flash (9B · 1.3 Deep)**|**76.85%**|**[已提交，尚未收录](https://github.com/Hanno-Labs/decision-bench-results/pull/85)**|
 |4|EldanRing/Winnow-12B|76.65%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
@@ -33,25 +33,11 @@
 |9|openai/gpt-5.6-luna|69.90%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |10|razorback16/openjev|68.43%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 
-
-
-
 编号行保留 2026-11-14 主仓库快照中 59 条当前记录的前 10 名。Flash、Light 仅按分数区间插入展示：已提交，尚未收录，不计入榜单名次，也不改变已收录模型的编号。这里展示历史快照，不是实时榜单。
 
-## Fold-X Pro：本地全量测试汇总
+## Pro 数据来源
 
-项目方提供的汇总记录明确对应新版 **27B Capacity**，报告了 **DecisionBench 全量 23,900 题**的成绩：
-
-|评测模式|准确率|答对题数|
-|---|---:|---:|
-|一次判断|**79.34%**|18,962 / 23,900|
-|推理模式|**80.04%**|19,129 / 23,900|
-
-第二种模式净增加 **167** 道正确答案，提升约 **0.70 个百分点**。两项成绩来自同一个新版，不与此前较早的 27B 版本混用。
-
-插入卡明确采用 **80.04%（推理模式）**，位于归档成绩 **81.18%** 与 **79.69%** 之间；**79.34%（一次判断）**则位于 **79.69%** 与 **76.65%** 之间。两种位置均不是官方名次，也不表示不同模型采用了相同推理预算。
-
-来源为项目方提供的本地评测汇总。百分比及净增题数已作算术核对；原始结果文件、逐题记录及评测协议一致性尚未独立核验，不属于榜单已审核收录的提交。本次 DecisionBench 对比撤下此前“超过 82%”及其条件排名估算。其他页面的外部抽样测评使用不同测试集，不能替代本组结果。
+项目方提供的推理模式本地测试汇总：23,900 题中答对 19,129 题。百分比已按题数核对；逐题原始记录及评测协议一致性尚未独立核验。本组结果与其他页面的外部抽样测评分别呈现。
 
 ## Fold-X Flash 的任务表现
 
@@ -85,7 +71,7 @@ DecisionBench 仓库自动对比评论提供了相同基准下的固定版本对
 
 ## 结论适用范围
 
-结果用于说明指定版本在该测试集上的判断能力，不代表所有任务均领先，也不能据此推导 Token、成本或中文能力优势。Fold-X Pro 展示项目方报告的本地成绩，尚待原始记录复核，不主张已获官方收录或名次。
+结果用于说明指定版本在该测试集上的判断能力，不代表所有任务均领先，也不能据此推导 Token、成本或中文能力优势。
 
 [返回 Fold-X 首页](../README.md)
 

@@ -17,7 +17,6 @@ DecisionBench 1.0 全量 **23,900 题**。以下为作者提交结果，Flash、
 |Fold-X Flash（9B）|**76.85%**|**位于主榜第 3–4 名分数之间**|[提交 #85](https://github.com/Hanno-Labs/decision-bench-results/pull/85)|
 |Fold-X Light（4B）|**74.48%**|**位于主榜第 5–6 名分数之间**|[提交 #82](https://github.com/Hanno-Labs/decision-bench-results/pull/82)|
 
-
 [完整任务表现、对照结果与计算口径 →](benchmarks/decisionbench.md)
 
 ### 已收录 Top 10 · 提交成绩参考插入
@@ -26,7 +25,7 @@ DecisionBench 1.0 全量 **23,900 题**。以下为作者提交结果，Flash、
 |---:|---|---:|---|
 |1|Hanno-Labs/bosun-v3.1-1.7b|84.90%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |2|Hanno-Labs/bosun-v3.1-0.6b|81.18%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
-|**↳ 本地测试参考**|**Fold-X Pro（27B · 推理模式）**|**80.04%**|**本地测试 · 非官方收录** · 分数参考位于主榜第 2–3 名之间（81.18% / 79.69%），不代表官方名次。|
+|**↳ 本地测试参考**|**Fold-X Pro（27B · 推理模式）**|**80.04%**|**本地测试 · 非官方收录** · 分数参考：位于主榜第 2–3 名之间。|
 |3|mohit67890/imajev-4b|79.69%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |**↳ 参考插入**|**Fold-X Flash (9B · 1.3 Deep)**|**76.85%**|**[已提交，尚未收录](https://github.com/Hanno-Labs/decision-bench-results/pull/85)**|
 |4|EldanRing/Winnow-12B|76.65%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
@@ -37,9 +36,6 @@ DecisionBench 1.0 全量 **23,900 题**。以下为作者提交结果，Flash、
 |8|deepseek/deepseek-v4.1-flash|71.00%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |9|openai/gpt-5.6-luna|69.90%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |10|razorback16/openjev|68.43%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
-
-
-
 
 编号行保留 2026-11-14 主仓库快照中 59 条当前记录的前 10 名。Flash、Light 仅按分数区间插入展示：已提交，尚未收录，不计入榜单名次，也不改变已收录模型的编号。这里展示历史快照，不是实时榜单。
 
@@ -107,7 +103,6 @@ Fold-X 将任务信息、目标和约束转化为明确判断，供业务系统�
 两段展示相互衔接：前四个案例关注如何行动，后三个进一步展示如何理解画面与判断依据。这是展示叙事的递进，不是同一测试下的能力等级认证。
 
 速度贯穿其中：判断需要及时返回，才能支持交互与连续处理。播放倍速、界面吞吐、单次模型延迟及云端 API 耗时分开说明，不能相互替代。
-
 
 以下演示用于直观看到应用过程。单次运行、仿真与局部读数不构成通用准确率、性能或部署承诺；具体证据范围见各案例。
 

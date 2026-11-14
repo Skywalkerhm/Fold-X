@@ -25,3 +25,5 @@ tr.pro-insert .pro-reference{margin:0 10px 0 22px}@media(max-width:700px){tr.pro
 .benchmark-reference tr.foldx-insert>td{padding:12px 0}
 .benchmark-reference .submission-card,.benchmark-reference tr.pro-insert .pro-reference{margin:0;width:100%;box-sizing:border-box}
 }
+
+.submission-card .submission-note{font-size:14px;line-height:1.8;margin:8px 0 0}.submission-note a{white-space:nowrap}
