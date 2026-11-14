@@ -17,7 +17,6 @@ Full **DecisionBench 1.0 evaluation: 23,900 questions**. The following are autho
 | **Fold-X Flash (9B)** | **76.85%** | **Between archived ranks 3–4** | [Submission #85](https://github.com/Hanno-Labs/decision-bench-results/pull/85) |
 | **Fold-X Light (4B)** | **74.48%** | **Between archived ranks 5–6** | [Submission #82](https://github.com/Hanno-Labs/decision-bench-results/pull/82) |
 
-**Fold-X Pro (27B):** internal testing reports over 82% accuracy on text judgment tasks. A conditional reference position of “top 2 / 60” would apply only if that score were reproduced under the same full DecisionBench evaluation protocol. A verifiable full submission is not currently available, so it is not treated as equivalent evidence to the results above.
 
 [Task breakdown, comparisons, and ranking methodology →](benchmarks/decisionbench.md)
 
@@ -38,7 +37,12 @@ Full **DecisionBench 1.0 evaluation: 23,900 questions**. The following are autho
 |9|openai/gpt-5.6-luna|69.90%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |10|razorback16/openjev|68.43%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 
-The numbered rows are the Top 10 among 59 current entries in the November 14, 2026 main-branch archive. Fold-X scores are inserted between adjacent scores for reference only: submitted, not yet listed, and excluded from leaderboard numbering. These are historical positions, not a live leaderboard.
+> **Fold-X Pro (27B) · >82%**
+>
+> **INTERNAL RESULT · FULL EVALUATION PENDING** — Internal text-judgment testing reports over 82%. A comparable full DecisionBench result has not been verified; this card is separate from score ordering and does not claim a leaderboard position or a submitted result.
+
+
+The numbered rows are the Top 10 among 59 current entries in the November 14, 2026 main-branch archive. Flash and Light scores are inserted between adjacent scores for reference only: submitted, not yet listed, and excluded from leaderboard numbering. These are historical positions, not a live leaderboard.
 
 ## 02 · What Fold-X can do
 

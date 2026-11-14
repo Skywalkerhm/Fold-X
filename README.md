@@ -17,7 +17,6 @@ DecisionBench 1.0 全量 **23,900 题**。以下为作者提交结果，Flash、
 |Fold-X Flash（9B）|**76.85%**|**位于主榜第 3–4 名分数之间**|[提交 #85](https://github.com/Hanno-Labs/decision-bench-results/pull/85)|
 |Fold-X Light（4B）|**74.48%**|**位于主榜第 5–6 名分数之间**|[提交 #82](https://github.com/Hanno-Labs/decision-bench-results/pull/82)|
 
-**Fold-X Pro（27B）**：团队内部报告文字判断准确率超过 82%。仅在相同 DecisionBench 全量口径复现后，才可使用“条件参考前 2 / 60”；目前尚无可核验的完整提交，不与上表视为同等证据。
 
 [完整任务表现、对照结果与计算口径 →](benchmarks/decisionbench.md)
 
@@ -38,7 +37,12 @@ DecisionBench 1.0 全量 **23,900 题**。以下为作者提交结果，Flash、
 |9|openai/gpt-5.6-luna|69.90%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |10|razorback16/openjev|68.43%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 
-编号行保留 2026-11-14 主仓库快照中 59 条当前记录的前 10 名。Fold-X 仅按分数区间插入展示：已提交，尚未收录，不计入榜单名次，也不改变已收录模型的编号。这里展示历史快照，不是实时榜单。
+> **Fold-X Pro (27B) · >82%**
+>
+> **内部测试参考 · 待全量验证** — 内部文字判断测试记录超过 82%；尚未核验为同口径 DecisionBench 全量结果。本卡片独立展示，不参与分数排序，不表示榜单名次或已提交成绩。
+
+
+编号行保留 2026-11-14 主仓库快照中 59 条当前记录的前 10 名。Flash、Light 仅按分数区间插入展示：已提交，尚未收录，不计入榜单名次，也不改变已收录模型的编号。这里展示历史快照，不是实时榜单。
 
 ## 02 · 能做什么，如何接入
 

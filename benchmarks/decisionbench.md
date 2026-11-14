@@ -32,7 +32,12 @@
 |9|openai/gpt-5.6-luna|69.90%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |10|razorback16/openjev|68.43%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 
-编号行保留 2026-11-14 主仓库快照中 59 条当前记录的前 10 名。Fold-X 仅按分数区间插入展示：已提交，尚未收录，不计入榜单名次，也不改变已收录模型的编号。这里展示历史快照，不是实时榜单。
+> **Fold-X Pro (27B) · >82%**
+>
+> **内部测试参考 · 待全量验证** — 内部文字判断测试记录超过 82%；尚未核验为同口径 DecisionBench 全量结果。本卡片独立展示，不参与分数排序，不表示榜单名次或已提交成绩。
+
+
+编号行保留 2026-11-14 主仓库快照中 59 条当前记录的前 10 名。Flash、Light 仅按分数区间插入展示：已提交，尚未收录，不计入榜单名次，也不改变已收录模型的编号。这里展示历史快照，不是实时榜单。
 
 ## Fold-X Pro（27B）：内部成绩与条件参考位置
 
@@ -67,7 +72,7 @@ DecisionBench 仓库自动对比评论提供了相同基准下的固定版本对
 
 - 基准为 DecisionBench 1.0，共 23,900 题；按 primary_accuracy 排序，错误和不支持题目计为未答对。
 - 主仓库快照日期为 2026-11-14，提交 SHA 为 `e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f`。60 个结果文件按榜单前端的最新修订选择规则整理后，得到 59 条当前结果。
-- 编号行保留 2026-11-14 主仓库快照中 59 条当前记录的前 10 名。Fold-X 仅按分数区间插入展示：已提交，尚未收录，不计入榜单名次，也不改变已收录模型的编号。这里展示历史快照，不是实时榜单。
+- 编号行保留 2026-11-14 主仓库快照中 59 条当前记录的前 10 名。Flash、Light 仅按分数区间插入展示：已提交，尚未收录，不计入榜单名次，也不改变已收录模型的编号。这里展示历史快照，不是实时榜单。
 - 4B 的 PR 已由机器人关闭且未合并；9B 的 PR 仍开放且未合并。两项成绩均为作者提交结果，自动对比不代表主办方独立复现或认证。
 
 可查阅[冻结的结果仓库](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)及[前端版本选择规则](https://github.com/Hanno-Labs/decision-bench-leaderboard/blob/1aa3f4d5273dcf3e450be473e96df0a74def4b82/src/lib/data/service.ts)。

@@ -32,7 +32,12 @@ Both runs covered every question with no recorded execution errors or unsupporte
 |9|openai/gpt-5.6-luna|69.90%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |10|razorback16/openjev|68.43%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 
-The numbered rows are the Top 10 among 59 current entries in the November 14, 2026 main-branch archive. Fold-X scores are inserted between adjacent scores for reference only: submitted, not yet listed, and excluded from leaderboard numbering. These are historical positions, not a live leaderboard.
+> **Fold-X Pro (27B) · >82%**
+>
+> **INTERNAL RESULT · FULL EVALUATION PENDING** — Internal text-judgment testing reports over 82%. A comparable full DecisionBench result has not been verified; this card is separate from score ordering and does not claim a leaderboard position or a submitted result.
+
+
+The numbered rows are the Top 10 among 59 current entries in the November 14, 2026 main-branch archive. Flash and Light scores are inserted between adjacent scores for reference only: submitted, not yet listed, and excluded from leaderboard numbering. These are historical positions, not a live leaderboard.
 
 ## Fold-X Pro: internal result and conditional position
 
@@ -67,7 +72,7 @@ Sources: [9B automated comparison](https://github.com/Hanno-Labs/decision-bench-
 
 - DecisionBench 1.0 contains 23,900 questions. Results are ordered by `primary_accuracy`; errors and unsupported items count as incorrect.
 - The main-repository snapshot is dated November 14, 2026, at commit `e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f`. Applying the leaderboard frontend’s latest-revision selection rule to 60 result files produces 59 current entries.
-- The numbered rows are the Top 10 among 59 current entries in the November 14, 2026 main-branch archive. Fold-X scores are inserted between adjacent scores for reference only: submitted, not yet listed, and excluded from leaderboard numbering. These are historical positions, not a live leaderboard.
+- The numbered rows are the Top 10 among 59 current entries in the November 14, 2026 main-branch archive. Flash and Light scores are inserted between adjacent scores for reference only: submitted, not yet listed, and excluded from leaderboard numbering. These are historical positions, not a live leaderboard.
 - At the snapshot date, the 4B PR had been closed by a bot without merging; the 9B PR remained open and unmerged. Both are author-submitted results. Automated comparisons do not constitute independent reproduction or certification by the benchmark organizers.
 
 See the [frozen results repository](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f) and the [frontend revision-selection rule](https://github.com/Hanno-Labs/decision-bench-leaderboard/blob/1aa3f4d5273dcf3e450be473e96df0a74def4b82/src/lib/data/service.ts).
