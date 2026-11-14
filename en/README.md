@@ -94,7 +94,7 @@ Three public preprints document the team's research on inference quality, effici
 
 These are arXiv preprints, not evidence of peer-review acceptance or independent product certification. Consult each paper for its experimental conditions and limitations. No unpublished implementation details are included here.
 
-## 03 · Seven demos, a growing range of decisions
+## 03 · Seven capabilities to explore
 
 **Decision-making:** strategic judgment → timely action → complex environments → coordination across multiple decision points.
 
@@ -106,7 +106,7 @@ Speed matters throughout: a decision needs to arrive in time to be useful. Playb
 
 These recordings show application behavior. Individual runs, simulations, and momentary interface readings are not general accuracy or performance guarantees. The evidence limits are stated in each case. Videos and screenshots retain their original on-screen language and audio; the surrounding text and captions are in English.
 
-### 01 · Go — Intelligence and strategic judgment
+### 01 · Intelligence & strategic judgment — Go
 
 Fold-X Flash plays White against DeepSeek on a 19×19 Go board. The game shows a sequence of decisions that depend on the position, the available moves, and their consequences.
 
@@ -114,7 +114,7 @@ Fold-X Flash plays White against DeepSeek on a 19×19 Go board. The game shows a
 
 [Video and key frames](cases/01-go.md) · [Open player](https://skywalkerhm.github.io/Fold-X/en/cases/01-go.html)
 
-### 02 · Super Mario — Fast, effective action selection
+### 02 · Fast, accurate decisions — Super Mario
 
 With enemies moving, terrain changing, and limited time to act, Fold-X repeatedly chooses whether to move, jump, or wait. The game runs on the left; the panel on the right shows the current state, selected action, and candidate scores.
 
@@ -122,7 +122,7 @@ With enemies moving, terrain changing, and limited time to act, Fold-X repeatedl
 
 [Video and key frames](cases/02-mario.md) · [Open player](https://skywalkerhm.github.io/Fold-X/en/cases/02-mario.html)
 
-### 03 · Robot courier — Continuous decisions in complex environments
+### 03 · Decisions in complex environments — Robot courier
 
 In an Unreal Engine delivery simulation, the robot receives a destination while environmental elements, pedestrians, and vehicles are placed randomly. Fold-X uses the information available at each step to decide whether to move, wait, or adjust its action.
 
@@ -130,7 +130,7 @@ In an Unreal Engine delivery simulation, the robot receives a destination while 
 
 [Video and key frames](cases/03-robot.md) · [Open player](https://skywalkerhm.github.io/Fold-X/en/cases/03-robot.html)
 
-### 04 · Traffic signal coordination — Coordinating multiple decision points
+### 04 · Coordinated decisions — Traffic signal coordination
 
 Fold-X participates in signal decisions across 62 intersections as simulated traffic conditions change. Releasing traffic at one junction affects downstream roads, so each local choice needs to be considered in the context of the wider network.
 
@@ -138,7 +138,7 @@ Fold-X participates in signal decisions across 62 intersections as simulated tra
 
 [Video and key frames](cases/04-traffic.md) · [Open player](https://skywalkerhm.github.io/Fold-X/en/cases/04-traffic.html)
 
-### 05 · Natural-language visual search — Connecting language to visual content
+### 05 · Understanding images through language — Natural-language visual search
 
 Describe an object, an activity, or a combination of conditions in natural language. Fold-X evaluates whether a scene matches. The monitoring application records matching frames, while video search returns candidate thumbnails and timestamps for review.
 
@@ -146,7 +146,7 @@ Describe an object, an activity, or a combination of conditions in natural langu
 
 [Video and key frames](cases/05-visual.md) · [Open player](https://skywalkerhm.github.io/Fold-X/en/cases/05-visual.html)
 
-### 06 · Reference-image search — Using an image to guide recognition and judgment
+### 06 · Image-guided understanding & recognition — Reference-image search
 
 A reference image provides the visual target. The application compares it with an image collection or video frames, then displays candidates, scores, and video timestamps for review.
 
@@ -154,7 +154,7 @@ A reference image provides the visual target. The application compares it with a
 
 [Video and key frames](cases/06-image-search.md) · [Open player](https://skywalkerhm.github.io/Fold-X/en/cases/06-image-search.html)
 
-### 07 · Art appreciation and antique observation — Aesthetic interpretation and attention to detail
+### 07 · Aesthetic understanding & close observation — Art appreciation and antique observation
 
 The art demo explores how lines, color, composition, and spatial relationships shape the mood of paintings and photographs. The antique demo applies close visual observation to objects, distinguishing visible clues from questions that need further examination.
 
