@@ -14,31 +14,31 @@ Full **DecisionBench 1.0 evaluation: 23,900 questions**. The following are autho
 
 | Model | Accuracy | Reference position of submitted score | Source |
 |---|---:|---:|---|
-| **Fold-X Flash (9B)** | **76.85%** | **4th / 61** | [Submission #85](https://github.com/Hanno-Labs/decision-bench-results/pull/85) |
-| **Fold-X Light (4B)** | **74.48%** | **7th / 61** | [Submission #82](https://github.com/Hanno-Labs/decision-bench-results/pull/82) |
-
-Reference Top 10 from the November 14, 2026 archive: 59 current main-branch entries plus the two Fold-X Flash and Light submissions not yet listed on the main leaderboard, ranked together by full-benchmark accuracy across 61 entries. These are not official leaderboard positions. Pro is excluded because no verifiable full submission is available.
+| **Fold-X Flash (9B)** | **76.85%** | **Between archived ranks 3–4** | [Submission #85](https://github.com/Hanno-Labs/decision-bench-results/pull/85) |
+| **Fold-X Light (4B)** | **74.48%** | **Between archived ranks 5–6** | [Submission #82](https://github.com/Hanno-Labs/decision-bench-results/pull/82) |
 
 **Fold-X Pro (27B):** internal testing reports over 82% accuracy on text judgment tasks. A conditional reference position of “top 2 / 60” would apply only if that score were reproduced under the same full DecisionBench evaluation protocol. A verifiable full submission is not currently available, so it is not treated as equivalent evidence to the results above.
 
 [Task breakdown, comparisons, and ranking methodology →](benchmarks/decisionbench.md)
 
-### Reference Top 10 · DecisionBench 1.0
+### Archived Top 10 · submitted scores shown separately
 
-| Reference position | Model / submitted version | Accuracy | Record source |
+| Archived rank | Model / submitted version | Accuracy | Record source |
 |---:|---|---:|---|
 |1|Hanno-Labs/bosun-v3.1-1.7b|84.90%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |2|Hanno-Labs/bosun-v3.1-0.6b|81.18%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |3|mohit67890/imajev-4b|79.69%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
-|**4**|**Fold-X Flash (9B · 1.3 Deep)**|**76.85%**|**[Submitted, not yet listed](https://github.com/Hanno-Labs/decision-bench-results/pull/85)**|
-|5|EldanRing/Winnow-12B|76.65%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
-|6|ekzhang/openjev-sglang|74.82%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
-|**7**|**Fold-X Light (4B · 1.0 Deep)**|**74.48%**|**[Submitted, not yet listed](https://github.com/Hanno-Labs/decision-bench-results/pull/82)**|
-|8|z-ai/glm-5.3-flash|74.09%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
-|9|typesafe/jev-1.13|72.03%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
-|10|deepseek/deepseek-v4.1-flash|71.00%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+|**↳ Reference only**|**Fold-X Flash (9B · 1.3 Deep)**|**76.85%**|**[Submitted, not yet listed](https://github.com/Hanno-Labs/decision-bench-results/pull/85)**|
+|4|EldanRing/Winnow-12B|76.65%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+|5|ekzhang/openjev-sglang|74.82%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+|**↳ Reference only**|**Fold-X Light (4B · 1.0 Deep)**|**74.48%**|**[Submitted, not yet listed](https://github.com/Hanno-Labs/decision-bench-results/pull/82)**|
+|6|z-ai/glm-5.3-flash|74.09%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+|7|typesafe/jev-1.13|72.03%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+|8|deepseek/deepseek-v4.1-flash|71.00%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+|9|openai/gpt-5.6-luna|69.90%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+|10|razorback16/openjev|68.43%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 
-Reference Top 10 from the November 14, 2026 archive: 59 current main-branch entries plus the two Fold-X Flash and Light submissions not yet listed on the main leaderboard, ranked together by full-benchmark accuracy across 61 entries. These are not official leaderboard positions. Pro is excluded because no verifiable full submission is available.
+The numbered rows are the Top 10 among 59 current entries in the November 14, 2026 main-branch archive. Fold-X scores are inserted between adjacent scores for reference only: submitted, not yet listed, and excluded from leaderboard numbering. These are historical positions, not a live leaderboard.
 
 ## 02 · What Fold-X can do
 
@@ -84,6 +84,16 @@ An anonymized enterprise trial also reported fewer abstentions and errors. Its h
 Team evaluation summary dated October 20, 2026. Scores apply to the specified tasks and configurations, not the entire benchmarks or the current API service. F1 is not accuracy. These are not official rankings or external certification.
 
 [Full results, additional Chinese tasks, and limitations](benchmarks/product-results.md)
+
+## Research behind the work
+
+Three public preprints document the team's research on inference quality, efficiency evaluation, and mathematical task performance. They provide research context, rather than certification of the current Fold-X API or the seven demos.
+
+- **[Virtual MoE — inference quality and reliability](https://arxiv.org/abs/2504.03739)**: studies inference quality and hallucination mitigation in a small-model setting. Its reported findings are specific to the evaluated model and tasks.
+- **[SemanticFold — evaluating efficiency and capability together](https://arxiv.org/abs/2610.10304)**: examines whether different capability measures are preserved under compression. The measures can move in different directions; a gain in one does not establish a gain in all.
+- **[Task presentation and execution paths shape LLM mathematical performance](https://arxiv.org/abs/2611.11102)**: studies how task presentation and available information affect mathematical answers, with paired comparisons showing task-dependent contributions.
+
+These are arXiv preprints, not evidence of peer-review acceptance or independent product certification. Consult each paper for its experimental conditions and limitations. No unpublished implementation details are included here.
 
 ## 03 · Seven demos, a growing range of decisions
 

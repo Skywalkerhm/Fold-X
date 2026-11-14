@@ -8,29 +8,31 @@
 
 ## 全量成绩与参考位置
 
-|模型|主准确率|参考位置（同时加入）|成功题数|结果来源|
+|模型|主准确率|分数区间（未收录）|成功题数|结果来源|
 |---|---:|---:|---:|---|
-|Fold-X Flash（9B）|**76.85%**|**第 4 / 61**|23,900 / 23,900|[PR #85](https://github.com/Hanno-Labs/decision-bench-results/pull/85)|
-|Fold-X Light（4B）|**74.48%**|**第 7 / 61**|23,900 / 23,900|[PR #82](https://github.com/Hanno-Labs/decision-bench-results/pull/82)|
+|Fold-X Flash（9B）|**76.85%**|**位于主榜第 3–4 名分数之间**|23,900 / 23,900|[PR #85](https://github.com/Hanno-Labs/decision-bench-results/pull/85)|
+|Fold-X Light（4B）|**74.48%**|**位于主榜第 5–6 名分数之间**|23,900 / 23,900|[PR #82](https://github.com/Hanno-Labs/decision-bench-results/pull/82)|
 
 两项结果均实现 100% 覆盖率，调用记录无错误或不支持题目；这指任务完成情况，不表示所有回答正确。参考位置体现提交成绩在同一基准中的相对水平，不是官方已收录名次。
 
-### Top 10 参考清单 · DecisionBench 1.0
+### 已收录 Top 10 · 提交成绩参考插入
 
-|参考名次|模型 / 提交版本|准确率|记录来源|
+|归档名次|模型 / 提交版本|准确率|记录来源|
 |---:|---|---:|---|
 |1|Hanno-Labs/bosun-v3.1-1.7b|84.90%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |2|Hanno-Labs/bosun-v3.1-0.6b|81.18%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |3|mohit67890/imajev-4b|79.69%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
-|**4**|**Fold-X Flash (9B · 1.3 Deep)**|**76.85%**|**[已提交，尚未收录](https://github.com/Hanno-Labs/decision-bench-results/pull/85)**|
-|5|EldanRing/Winnow-12B|76.65%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
-|6|ekzhang/openjev-sglang|74.82%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
-|**7**|**Fold-X Light (4B · 1.0 Deep)**|**74.48%**|**[已提交，尚未收录](https://github.com/Hanno-Labs/decision-bench-results/pull/82)**|
-|8|z-ai/glm-5.3-flash|74.09%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
-|9|typesafe/jev-1.13|72.03%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
-|10|deepseek/deepseek-v4.1-flash|71.00%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+|**↳ 参考插入**|**Fold-X Flash (9B · 1.3 Deep)**|**76.85%**|**[已提交，尚未收录](https://github.com/Hanno-Labs/decision-bench-results/pull/85)**|
+|4|EldanRing/Winnow-12B|76.65%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+|5|ekzhang/openjev-sglang|74.82%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+|**↳ 参考插入**|**Fold-X Light (4B · 1.0 Deep)**|**74.48%**|**[已提交，尚未收录](https://github.com/Hanno-Labs/decision-bench-results/pull/82)**|
+|6|z-ai/glm-5.3-flash|74.09%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+|7|typesafe/jev-1.13|72.03%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+|8|deepseek/deepseek-v4.1-flash|71.00%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+|9|openai/gpt-5.6-luna|69.90%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+|10|razorback16/openjev|68.43%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 
-依据 2026-11-14 归档快照：59 条主榜当前记录，同时加入 Fold-X Flash、Light 两项已提交，尚未收录，共 61 条，按全量准确率降序排列。以下为参考 Top 10，不是官方已收录排名；Pro 尚无可核验的全量提交，不列入此表。
+编号行保留 2026-11-14 主仓库快照中 59 条当前记录的前 10 名。Fold-X 仅按分数区间插入展示：已提交，尚未收录，不计入榜单名次，也不改变已收录模型的编号。这里展示历史快照，不是实时榜单。
 
 ## Fold-X Pro（27B）：内部成绩与条件参考位置
 
@@ -65,8 +67,7 @@ DecisionBench 仓库自动对比评论提供了相同基准下的固定版本对
 
 - 基准为 DecisionBench 1.0，共 23,900 题；按 primary_accuracy 排序，错误和不支持题目计为未答对。
 - 主仓库快照日期为 2026-11-14，提交 SHA 为 `e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f`。60 个结果文件按榜单前端的最新修订选择规则整理后，得到 59 条当前结果。
-- 依据 2026-11-14 归档快照：59 条主榜当前记录，同时加入 Fold-X Flash、Light 两项已提交，尚未收录，共 61 条，按全量准确率降序排列。以下为参考 Top 10，不是官方已收录排名；Pro 尚无可核验的全量提交，不列入此表。
-- 此前分别单独加入时为 Flash 第 4/60、Light 第 6/60；本页统一使用同时加入的 61 条口径，准确率未发生变化。
+- 编号行保留 2026-11-14 主仓库快照中 59 条当前记录的前 10 名。Fold-X 仅按分数区间插入展示：已提交，尚未收录，不计入榜单名次，也不改变已收录模型的编号。这里展示历史快照，不是实时榜单。
 - 4B 的 PR 已由机器人关闭且未合并；9B 的 PR 仍开放且未合并。两项成绩均为作者提交结果，自动对比不代表主办方独立复现或认证。
 
 可查阅[冻结的结果仓库](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)及[前端版本选择规则](https://github.com/Hanno-Labs/decision-bench-leaderboard/blob/1aa3f4d5273dcf3e450be473e96df0a74def4b82/src/lib/data/service.ts)。

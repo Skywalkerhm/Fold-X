@@ -14,31 +14,31 @@ DecisionBench 1.0 全量 **23,900 题**。以下为作者提交结果，Flash、
 
 |模型|准确率|提交成绩参考位置|结果来源|
 |---|---:|---:|---|
-|Fold-X Flash（9B）|**76.85%**|**第 4 / 61**|[提交 #85](https://github.com/Hanno-Labs/decision-bench-results/pull/85)|
-|Fold-X Light（4B）|**74.48%**|**第 7 / 61**|[提交 #82](https://github.com/Hanno-Labs/decision-bench-results/pull/82)|
-
-依据 2026-11-14 归档快照：59 条主榜当前记录，同时加入 Fold-X Flash、Light 两项已提交，尚未收录，共 61 条，按全量准确率降序排列。以下为参考 Top 10，不是官方已收录排名；Pro 尚无可核验的全量提交，不列入此表。
+|Fold-X Flash（9B）|**76.85%**|**位于主榜第 3–4 名分数之间**|[提交 #85](https://github.com/Hanno-Labs/decision-bench-results/pull/85)|
+|Fold-X Light（4B）|**74.48%**|**位于主榜第 5–6 名分数之间**|[提交 #82](https://github.com/Hanno-Labs/decision-bench-results/pull/82)|
 
 **Fold-X Pro（27B）**：团队内部报告文字判断准确率超过 82%。仅在相同 DecisionBench 全量口径复现后，才可使用“条件参考前 2 / 60”；目前尚无可核验的完整提交，不与上表视为同等证据。
 
 [完整任务表现、对照结果与计算口径 →](benchmarks/decisionbench.md)
 
-### Top 10 参考清单 · DecisionBench 1.0
+### 已收录 Top 10 · 提交成绩参考插入
 
-|参考名次|模型 / 提交版本|准确率|记录来源|
+|归档名次|模型 / 提交版本|准确率|记录来源|
 |---:|---|---:|---|
 |1|Hanno-Labs/bosun-v3.1-1.7b|84.90%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |2|Hanno-Labs/bosun-v3.1-0.6b|81.18%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |3|mohit67890/imajev-4b|79.69%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
-|**4**|**Fold-X Flash (9B · 1.3 Deep)**|**76.85%**|**[已提交，尚未收录](https://github.com/Hanno-Labs/decision-bench-results/pull/85)**|
-|5|EldanRing/Winnow-12B|76.65%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
-|6|ekzhang/openjev-sglang|74.82%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
-|**7**|**Fold-X Light (4B · 1.0 Deep)**|**74.48%**|**[已提交，尚未收录](https://github.com/Hanno-Labs/decision-bench-results/pull/82)**|
-|8|z-ai/glm-5.3-flash|74.09%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
-|9|typesafe/jev-1.13|72.03%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
-|10|deepseek/deepseek-v4.1-flash|71.00%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+|**↳ 参考插入**|**Fold-X Flash (9B · 1.3 Deep)**|**76.85%**|**[已提交，尚未收录](https://github.com/Hanno-Labs/decision-bench-results/pull/85)**|
+|4|EldanRing/Winnow-12B|76.65%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+|5|ekzhang/openjev-sglang|74.82%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+|**↳ 参考插入**|**Fold-X Light (4B · 1.0 Deep)**|**74.48%**|**[已提交，尚未收录](https://github.com/Hanno-Labs/decision-bench-results/pull/82)**|
+|6|z-ai/glm-5.3-flash|74.09%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+|7|typesafe/jev-1.13|72.03%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+|8|deepseek/deepseek-v4.1-flash|71.00%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+|9|openai/gpt-5.6-luna|69.90%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+|10|razorback16/openjev|68.43%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 
-依据 2026-11-14 归档快照：59 条主榜当前记录，同时加入 Fold-X Flash、Light 两项已提交，尚未收录，共 61 条，按全量准确率降序排列。以下为参考 Top 10，不是官方已收录排名；Pro 尚无可核验的全量提交，不列入此表。
+编号行保留 2026-11-14 主仓库快照中 59 条当前记录的前 10 名。Fold-X 仅按分数区间插入展示：已提交，尚未收录，不计入榜单名次，也不改变已收录模型的编号。这里展示历史快照，不是实时榜单。
 
 ## 02 · 能做什么，如何接入
 
@@ -84,6 +84,16 @@ Fold-X 将任务信息、目标和约束转化为明确判断，供业务系统�
 来源为2026年10月20日团队评测汇总。成绩仅对应指定任务与配置，不是整个基准的总分，也不等于当前API服务表现；F1不是准确率。本组结果不作官方排名或外部认证宣传。
 
 [查看完整结果、中文业务分项及适用边界](benchmarks/product-results.md)
+
+## 支撑能力探索的公开研究
+
+三篇公开预印本，记录团队在推理质量、效率评估与数学任务表现方面的研究积累。它们提供研究依据与探索背景，不作为当前 Fold-X API 或七个演示的直接性能认证。
+
+- **[Virtual MoE：推理质量与可靠性](https://arxiv.org/abs/2504.03739)**：研究小模型场景中的推理质量与幻觉缓解；结论限于论文所测模型和任务。
+- **[SemanticFold：同时考察效率与能力](https://arxiv.org/abs/2610.10304)**：考察压缩条件下不同能力指标是否得到保留。不同指标可能朝不同方向变化，单项改善不能代表所有能力同时提升。
+- **[任务呈现与执行路径如何影响大模型数学表现](https://arxiv.org/abs/2611.11102)**：通过配对实验，研究任务呈现和可用信息对数学作答的影响，说明不同条件对结果的贡献与适用边界。
+
+以上为 arXiv 预印本，不表示已通过同行评审或取得独立产品认证；实验条件与限制以各论文为准。此处不展开未公开的内部实现。
 
 ## 03 · 七个案例，逐步展开能力
 
