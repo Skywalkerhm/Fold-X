@@ -20,8 +20,8 @@ Both runs covered every question with no recorded execution errors or unsupporte
 | Archived rank | Model / submitted version | Accuracy | Record source |
 |---:|---|---:|---|
 |1|Hanno-Labs/bosun-v3.1-1.7b|84.90%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
-|**↳ Internal reference**|**Fold-X Pro (27B)**|**>82%**|**INTERNAL RESULT · FULL EVALUATION PENDING** · Internal text-judgment testing reports over 82%. Shown here using that reported lower bound only; the exact score and a comparable full DecisionBench result have not been verified. Placement does not establish a rank or an upper bound of 84.90%, and is not a submitted benchmark result.|
 |2|Hanno-Labs/bosun-v3.1-0.6b|81.18%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+|**↳ Local reference**|**Fold-X Pro (27B · Capacity)**|**80.04% · Up to two passes**；79.34% · single pass|**LOCAL FULL-SET SUMMARY · RAW RECORDS PENDING REVIEW** · Reported local results for the 27B Capacity version on 23,900 DecisionBench questions. The reference placement uses the up-to-two-pass result; it is not a leaderboard rank or an accepted submission. Source: a summary supplied by the project team; the underlying per-question records have not been independently checked.|
 |3|mohit67890/imajev-4b|79.69%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |**↳ Reference only**|**Fold-X Flash (9B · 1.3 Deep)**|**76.85%**|**[Submitted, not yet listed](https://github.com/Hanno-Labs/decision-bench-results/pull/85)**|
 |4|EldanRing/Winnow-12B|76.65%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
@@ -38,13 +38,20 @@ Both runs covered every question with no recorded execution errors or unsupporte
 
 The numbered rows are the Top 10 among 59 current entries in the November 14, 2026 main-branch archive. Flash and Light scores are inserted between adjacent scores for reference only: submitted, not yet listed, and excluded from leaderboard numbering. These are historical positions, not a live leaderboard.
 
-## Fold-X Pro: internal result and conditional position
+## Fold-X Pro: reported local full-set results
 
-Internal testing reports **over 82% accuracy on text judgment tasks**. This has not been verified as a full, comparable run on all 23,900 DecisionBench 1.0 questions.
+The project team's supplied summary identifies the newer **27B Capacity** version and reports results on **23,900 DecisionBench questions**:
 
-If that result were reproduced on the same dataset version, complete question set, and primary-accuracy scoring protocol, adding Pro separately to the 59 reference entries would place it in the **top 2 / 60, conditionally**. The two highest reference scores are 84.8996% and 81.1841%. “Over 82%” would exceed the second score, but does not establish whether it exceeds the first. It therefore cannot be labeled a confirmed second place or an official ranking.
+| Evaluation mode | Accuracy | Correct answers |
+|---|---:|---:|
+| Single pass | **79.34%** | 18,962 / 23,900 |
+| Up to two passes | **80.04%** | 19,129 / 23,900 |
 
-This conditional estimate is not equivalent evidence to the Flash and Light submissions. A verified full result, per-question records, and model version are needed before reporting a reproducible position.
+The second mode adds **167** correct answers, approximately **0.70 percentage points**. “Up to two” does not mean every question was processed twice. These figures describe the same newer version; results from the earlier 27B version are not combined with them.
+
+The inset uses the explicitly labeled **80.04% up-to-two-pass result**, between the archived scores of **81.18%** and **79.69%**. The **79.34% single-pass result** would instead fall between **79.69%** and **76.65%**. Neither placement is an official rank, nor does the display establish matched inference budgets across models.
+
+Source: a local evaluation summary supplied by the project team. The percentages and change in correct-answer counts have been arithmetically checked; the original result files, per-question records, and protocol alignment have not been independently verified. This is not an accepted leaderboard submission. The previous “over 82%” statement and its conditional ranking estimate have been withdrawn from this DecisionBench comparison. Separate sampled external evaluations elsewhere on this site use different datasets and must not be substituted for these results.
 
 ## Fold-X Flash by task type
 
@@ -78,6 +85,6 @@ See the [frozen results repository](https://github.com/Hanno-Labs/decision-bench
 
 ## What these results support
 
-These results describe the specified model versions on this benchmark. They do not establish an advantage on every task, or support claims about token consumption, cost, or Chinese-language performance. Pro has no verifiable full submission in this review; its position remains a conditional estimate.
+These results describe the specified model versions on this benchmark. They do not establish an advantage on every task, or support claims about token consumption, cost, or Chinese-language performance. Pro is presented as a reported local result pending verification of the underlying records, not an officially accepted score.
 
 [Back to the English GitHub overview](../README.md) · [Open the full showcase](https://skywalkerhm.github.io/Fold-X/en/index.html)

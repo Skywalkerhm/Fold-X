@@ -25,8 +25,8 @@ Full **DecisionBench 1.0 evaluation: 23,900 questions**. The following are autho
 | Archived rank | Model / submitted version | Accuracy | Record source |
 |---:|---|---:|---|
 |1|Hanno-Labs/bosun-v3.1-1.7b|84.90%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
-|**↳ Internal reference**|**Fold-X Pro (27B)**|**>82%**|**INTERNAL RESULT · FULL EVALUATION PENDING** · Internal text-judgment testing reports over 82%. Shown here using that reported lower bound only; the exact score and a comparable full DecisionBench result have not been verified. Placement does not establish a rank or an upper bound of 84.90%, and is not a submitted benchmark result.|
 |2|Hanno-Labs/bosun-v3.1-0.6b|81.18%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+|**↳ Local reference**|**Fold-X Pro (27B · Capacity)**|**80.04% · Up to two passes**；79.34% · single pass|**LOCAL FULL-SET SUMMARY · RAW RECORDS PENDING REVIEW** · Reported local results for the 27B Capacity version on 23,900 DecisionBench questions. The reference placement uses the up-to-two-pass result; it is not a leaderboard rank or an accepted submission. Source: a summary supplied by the project team; the underlying per-question records have not been independently checked.|
 |3|mohit67890/imajev-4b|79.69%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |**↳ Reference only**|**Fold-X Flash (9B · 1.3 Deep)**|**76.85%**|**[Submitted, not yet listed](https://github.com/Hanno-Labs/decision-bench-results/pull/85)**|
 |4|EldanRing/Winnow-12B|76.65%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
