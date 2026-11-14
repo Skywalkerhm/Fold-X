@@ -1,18 +1,18 @@
-# Case 08 · Hair detection on bedding
+# Case 08 · Bedding quality inspection: hair detection
 
 [中文版](../../cases/08-fine-detail.md)
 
-**Small-target & fine-detail recognition**
+**Fine-detail visual quality inspection**
 
-The application searches bedding footage for fine, low-contrast hair candidates among fabric textures and folds, marks their locations, and opens enlarged views for review. The demo connects visual observation with inspectable evidence.
+The application supports bedding cleanliness checks by flagging fine, low-contrast hair candidates among fabric textures and folds, marking their locations, and opening enlarged views. The focus is visual quality inspection: spotting potential issues, locating the evidence, and supporting human review.
 
 ## Capability progression
 
-The progression now moves from recognizing objects and interpreting visual relationships to locating tiny targets—bringing close observation toward cleaning checks and production inspection.
+The progression moves from understanding a scene to checking its quality: use small foreign-material candidates to identify areas that need attention and provide visual evidence for review.
 
 ## Demo video
 
-[![Small-target & fine-detail recognition](../../assets/cases/fine-detail/candidates.jpg)](../../assets/cases/fine-detail/fold-x-fine-detail.mp4)
+[![Fine-detail visual quality inspection](../../assets/cases/fine-detail/candidates.jpg)](../../assets/cases/fine-detail/fold-x-fine-detail.mp4)
 
 [Open player · approx. 46 seconds](https://skywalkerhm.github.io/Fold-X/en/cases/08-fine-detail.html)
 

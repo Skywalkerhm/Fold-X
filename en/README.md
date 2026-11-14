@@ -98,7 +98,7 @@ These are arXiv preprints, not evidence of peer-review acceptance or independent
 
 **Decision-making:** strategic judgment → timely action → complex environments → coordination across multiple decision points.
 
-**Visual understanding:** language-guided scene understanding → reference-image recognition → aesthetic interpretation → fine-detail recognition.
+**Visual understanding:** language-guided scene understanding → reference-image recognition → aesthetic interpretation → visual quality inspection.
 
 The first four cases explore how to act. The next four take a closer look at how visual information can inform a judgment. This is a narrative progression through applications, not a set of certified capability levels from a single benchmark.
 
@@ -162,13 +162,13 @@ The art demo explores how lines, color, composition, and spatial relationships s
 
 [Video and key frames](cases/07-art.md) · [Open player](https://skywalkerhm.github.io/Fold-X/en/cases/07-art.html)
 
-### 08 · Small-target & fine-detail recognition — Hair detection on bedding
+### 08 · Fine-detail visual quality inspection — Bedding quality inspection: hair detection
 
-The application searches bedding footage for fine, low-contrast hair candidates among fabric textures and folds, marks their locations, and opens enlarged views for review. The demo connects visual observation with inspectable evidence.
+The application supports bedding cleanliness checks by flagging fine, low-contrast hair candidates among fabric textures and folds, marking their locations, and opening enlarged views. The focus is visual quality inspection: spotting potential issues, locating the evidence, and supporting human review.
 
 Turn details that require frame-by-frame searching into candidate locations for human review and records, with potential pilots in linen inspection and textile foreign-material screening.
 
-[![Small-target & fine-detail recognition](../assets/cases/fine-detail/candidates.jpg)](../assets/cases/fine-detail/fold-x-fine-detail.mp4)
+[![Fine-detail visual quality inspection](../assets/cases/fine-detail/candidates.jpg)](../assets/cases/fine-detail/fold-x-fine-detail.mp4)
 
 [Video, key frames, and application scope](cases/08-fine-detail.md) · [Open player](https://skywalkerhm.github.io/Fold-X/en/cases/08-fine-detail.html)
 

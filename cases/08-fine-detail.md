@@ -1,18 +1,18 @@
-# 案例 08 · 床品发丝检测
+# 案例 08 · 床品质检：发丝检测
 
 [English](../en/cases/08-fine-detail.md)
 
-**微小目标与精细视觉识别**
+**精细视觉质检**
 
-在床品纹理、褶皱与低对比度画面中寻找细小发丝候选，标出位置，再放大复核。演示展示了从发现细节到形成可检查线索的完整应用流程。
+面向床品清洁质检，在纹理、褶皱与低对比度画面中发现疑似发丝，标出位置并放大复核。重点展示发现疑似问题、定位证据、辅助人工复核的视觉质检能力。
 
 ## 能力递进
 
-从识别物体、理解画面与细节关系，进一步走向微小目标的定位：把细致观察连接到清洁检查与生产质检的实际需求。
+从理解画面进一步走向质量检查：以细小异物检测为切入，判断哪些区域值得关注，并提供可复核的质检线索。
 
 ## 演示视频
 
-[![微小目标与精细视觉识别](../assets/cases/fine-detail/candidates.jpg)](../assets/cases/fine-detail/fold-x-fine-detail.mp4)
+[![精细视觉质检](../assets/cases/fine-detail/candidates.jpg)](../assets/cases/fine-detail/fold-x-fine-detail.mp4)
 
 [观看演示 · 约 46 秒](https://skywalkerhm.github.io/Fold-X/cases/08-fine-detail.html)
 
