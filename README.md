@@ -1,0 +1,167 @@
+# Fold-X
+
+[中文版](README.md) | [English](en/README.md)
+
+**Fold-X，让每一次决策更准、更快、更省。**
+
+Fold-X 是多模态决策模型，将文字与图像转化为应用可用的判断、选择与评分。当前已提供 Flash-1.3 文字与图像 API。
+
+[申请 API 试用](docs/contact.md) · [接入说明](docs/api.md) · [常见问题](docs/faq.md) · [完整预览](index.html)
+
+## 01 · 评测成绩
+
+DecisionBench 1.0 全量 **23,900 题**。以下为作者提交结果，Flash、Light 均完成全量任务，调用记录无错误或不支持题目；这不代表所有题目回答正确。
+
+|模型|准确率|提交成绩参考位置|结果来源|
+|---|---:|---:|---|
+|Fold-X Flash（9B）|**76.85%**|**第 4 / 61**|[提交 #85](https://github.com/Hanno-Labs/decision-bench-results/pull/85)|
+|Fold-X Light（4B）|**74.48%**|**第 7 / 61**|[提交 #82](https://github.com/Hanno-Labs/decision-bench-results/pull/82)|
+
+依据 2026-11-14 归档快照：59 条主榜当前记录，同时加入 Fold-X Flash、Light 两项已提交，尚未收录，共 61 条，按全量准确率降序排列。以下为参考 Top 10，不是官方已收录排名；Pro 尚无可核验的全量提交，不列入此表。
+
+**Fold-X Pro（27B）**：团队内部报告文字判断准确率超过 82%。仅在相同 DecisionBench 全量口径复现后，才可使用“条件参考前 2 / 60”；目前尚无可核验的完整提交，不与上表视为同等证据。
+
+[完整任务表现、对照结果与计算口径 →](benchmarks/decisionbench.md)
+
+### Top 10 参考清单 · DecisionBench 1.0
+
+|参考名次|模型 / 提交版本|准确率|记录来源|
+|---:|---|---:|---|
+|1|Hanno-Labs/bosun-v3.1-1.7b|84.90%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+|2|Hanno-Labs/bosun-v3.1-0.6b|81.18%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+|3|mohit67890/imajev-4b|79.69%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+|**4**|**Fold-X Flash (9B · 1.3 Deep)**|**76.85%**|**[已提交，尚未收录](https://github.com/Hanno-Labs/decision-bench-results/pull/85)**|
+|5|EldanRing/Winnow-12B|76.65%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+|6|ekzhang/openjev-sglang|74.82%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+|**7**|**Fold-X Light (4B · 1.0 Deep)**|**74.48%**|**[已提交，尚未收录](https://github.com/Hanno-Labs/decision-bench-results/pull/82)**|
+|8|z-ai/glm-5.3-flash|74.09%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+|9|typesafe/jev-1.13|72.03%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+|10|deepseek/deepseek-v4.1-flash|71.00%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+
+依据 2026-11-14 归档快照：59 条主榜当前记录，同时加入 Fold-X Flash、Light 两项已提交，尚未收录，共 61 条，按全量准确率降序排列。以下为参考 Top 10，不是官方已收录排名；Pro 尚无可核验的全量提交，不列入此表。
+
+## 02 · 能做什么，如何接入
+
+Fold-X 将任务信息、目标和约束转化为明确判断，供业务系统执行与复核。应用可以提供文字、图像或整理后的状态，并将执行后的新状态用于下一次判断。具体输入形式与支持范围以服务接口为准。
+
+|应用方向|可以承担的判断环节|
+|---|---|
+|文字与业务材料|分类、条件判断、证据核验、评分与多项检查；关注中文语境、指代和专业表达|
+|图片与视频|按语言条件或参考图片筛选候选，定位视频片段，辅助观察细节|
+|连续行动与协同|在游戏、仿真和工作流中选择下一步，结合变化的状态协调多个节点|
+
+通过 API 接入：**提供任务与可选项 → 获得判断 → 应用执行并反馈新状态**。当前可调用 Flash-1.3 文字与图像接口；Light、Pro 的接入安排请联系团队确认，评测版本不自动等于在线服务版本；复杂应用需配套场景适配与验证。业务系统负责执行权限、异常回退和人工复核。
+
+## 外部测评结果
+
+**外部评测方报告：Fold-X Pro 在16项公开基准、共1,574题的抽样评测中，总体准确率为82.72%。** 标准模式在RTE文本蕴含判断、QQP问题语义匹配、TweetEval情感分类三项中，位列报告三模型参照的第一或并列第一。另一个231题公开决策集上，自适应模式准确率为85.28%。
+
+此组为外部测评结果，与团队自测分开呈现。参照位置据报告和归档对照值整理，不是官方榜单名次；评测日期为2026年11月3日，材料未证明另两个模型同步重跑。
+
+[查看16项完整成绩、模式、响应时间与口径](benchmarks/external-evaluation.md)
+
+## 任务中的准、快、省
+
+| 关注点 | 选列结果 | 适用范围 |
+|---|---|---|
+| 准确性 | 936题分类：89.32%，对照79.59% | 历史团队测试，与同等规模模型对比 |
+| 中文理解 | C-SEM四项1,200题：93.33% | Flash深度配置，公开集自测 |
+| 速度 | 1,213题累计推理耗时减少75.5% | 本地模型计时，不是完整API延迟 |
+| 费用 | 一组批量任务估算API费用降低10.5% | 历史完整工作流，不是模型单次调用收益 |
+
+匿名企业试用也记录了更少的弃权与判错。该样本类别高度不均衡，准确率结论受限；详情同时列出多数类基线与计时边界。
+
+[查看结果、匿名企业反馈与完整口径](benchmarks/product-results.md)
+
+### 中英文长材料理解与事实核验
+
+| 任务 | 历史报告结果 | 配置 |
+|---|---|---|
+| 中文段落检索 · LongBench v1 | **100.0%（200/200）** | Flash · 深度 |
+| 英文段落检索 · LongBench v1 | **98.5%** | Flash · 深度 |
+| 英文幻觉检测 · RAGTruth | **F1 66.71%，2,700条** | Light · 标准 |
+
+来源为2026年10月20日团队评测汇总。成绩仅对应指定任务与配置，不是整个基准的总分，也不等于当前API服务表现；F1不是准确率。本组结果不作官方排名或外部认证宣传。
+
+[查看完整结果、中文业务分项及适用边界](benchmarks/product-results.md)
+
+## 03 · 七个案例，逐步展开能力
+
+**决策能力展开：策略判断 → 快速行动 → 复杂环境 → 多点协同。**
+
+**视觉理解深入：语言理解画面 → 参考图识别 → 审美与细节分析。**
+
+两段展示相互衔接：前四个案例关注如何行动，后三个进一步展示如何理解画面与判断依据。这是展示叙事的递进，不是同一测试下的能力等级认证。
+
+速度贯穿其中：判断需要及时返回，才能支持交互与连续处理。播放倍速、界面吞吐、单次模型延迟及云端 API 耗时分开说明，不能相互替代。
+
+
+以下演示用于直观看到应用过程。单次运行、仿真与局部读数不构成通用准确率、性能或部署承诺；具体证据范围见各案例。
+
+### 01 · 围棋对弈｜智能与策略判断
+
+Fold-X Flash 执白，与 DeepSeek 执黑进行 19×19 围棋对弈。通过连续落子，展示对局面、候选选择与后续影响的判断。
+
+[![围棋对弈](assets/cases/go/result.jpg)](assets/cases/go/fold-x-go-5x.mp4)
+
+[观看视频与关键截图](cases/01-go.md) · [打开播放器](cases/01-go.html)
+
+### 02 · 超级玛丽｜快速准确的行动决策
+
+面对移动的敌人、变化的地形与有限的行动时机，Fold-X 根据当前游戏状态持续选择前进、跳跃或等待。左侧看行动效果，右侧看当时的状态、所选动作与候选分数。
+
+[![超级玛丽](assets/cases/mario/jump.jpg)](assets/cases/mario/fold-x-mario-5x.mp4)
+
+[观看视频与关键截图](cases/02-mario.md) · [打开播放器](cases/02-mario.html)
+
+### 03 · 机器人快递员｜复杂环境中的连续决策
+
+在 Unreal Engine（UE）派送仿真中，为机器人设定目标，环境要素、行人与车辆随机投放。Fold-X 根据当下的外界信息，持续决定前进、等待或调整行动。
+
+[![机器人快递员](assets/cases/robot/wait-for-signal.jpg)](assets/cases/robot/fold-x-robot-delivery.mp4)
+
+[观看视频与关键截图](cases/03-robot.md) · [打开播放器](cases/03-robot.html)
+
+### 04 · 交通信号调度｜多个决策点的协同
+
+Fold-X 根据仿真中不断更新的车流，参与 62 个路口的信号决策。一个路口的放行会影响后续路段，局部选择需要放到整个路网中观察。
+
+[![交通信号调度](assets/cases/traffic/overview.jpg)](assets/cases/traffic/fold-x-traffic-62.mp4)
+
+[观看视频与关键截图](cases/04-traffic.md) · [打开播放器](cases/04-traffic.html)
+
+### 05 · 画面监控与视频搜索｜自然语言理解画面
+
+用自然语言描述目标、行为或组合条件，Fold-X 判断画面是否匹配。监控应用记录命中画面；视频搜索返回候选缩略图与时间位置，便于跳转回看。
+
+[![画面监控与视频搜索](assets/cases/visual/monitor-results.jpg)](cases/05-visual.md)
+
+[观看视频与关键截图](cases/05-visual.md) · [打开播放器](cases/05-visual.html)
+
+### 06 · 参考图片检索｜以图理解、识别与判断
+
+用一张参考图片表达要找的内容，再在图片集合与视频画面中比较、识别和判断。应用展示候选、分数与对应的视频时间位置。
+
+[![参考图片检索](assets/cases/image-search/processing-speed.jpg)](assets/cases/image-search/fold-x-image-search.mp4)
+
+[观看视频与关键截图](cases/06-image-search.md) · [打开播放器](cases/06-image-search.html)
+
+### 07 · 艺术鉴赏与古董观察｜审美理解与细节鉴察
+
+从绘画与摄影中的线条、色彩、构图和空间关系出发，尝试解释画面氛围；把细致观察延伸到器物图片，整理可见线索与需要继续核验的问题。
+
+[![艺术鉴赏与古董观察](assets/cases/art/interpretation.jpg)](cases/07-art.md)
+
+[观看视频与关键截图](cases/07-art.md) · [打开播放器](cases/07-art.html)
+
+## 试用与联系
+
+申请 API 试用或讨论业务场景，请联系 [刘先生 — msfocus@gmail.com](mailto:msfocus@gmail.com) 或 [黄先生 — huangminl4@hotmail.com](mailto:huangminl4@hotmail.com)。
+
+[完整联系方式与电话](docs/contact.md) · [API能力与接入](docs/api.md) · [精简FAQ](docs/faq.md)
+
+普通产品问题可在本仓库启用后的 **Issues** 标签页留言。密钥、客户资料与非公开商务信息请通过邮件沟通。
+
+---
+
+本仓库发布产品说明、评测引用与展示素材，核心实现和模型权重不在此发布。视频中的第三方素材署名见对应案例。
