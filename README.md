@@ -25,6 +25,7 @@ DecisionBench 1.0 全量 **23,900 题**。以下为作者提交结果，Flash、
 |归档名次|模型 / 提交版本|准确率|记录来源|
 |---:|---|---:|---|
 |1|Hanno-Labs/bosun-v3.1-1.7b|84.90%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+|**↳ 内部测试参考**|**Fold-X Pro (27B)**|**>82%**|**内部测试参考 · 待全量验证** · 内部文字判断测试记录超过 82%。此处仅按已知下限示意插入；精确分数及同口径 DecisionBench 全量结果尚未核验，不表示已确认名次，也不表示成绩低于 84.90%，不是已提交的榜单成绩。|
 |2|Hanno-Labs/bosun-v3.1-0.6b|81.18%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |3|mohit67890/imajev-4b|79.69%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |**↳ 参考插入**|**Fold-X Flash (9B · 1.3 Deep)**|**76.85%**|**[已提交，尚未收录](https://github.com/Hanno-Labs/decision-bench-results/pull/85)**|
@@ -37,9 +38,7 @@ DecisionBench 1.0 全量 **23,900 题**。以下为作者提交结果，Flash、
 |9|openai/gpt-5.6-luna|69.90%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |10|razorback16/openjev|68.43%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 
-> **Fold-X Pro (27B) · >82%**
->
-> **内部测试参考 · 待全量验证** — 内部文字判断测试记录超过 82%；尚未核验为同口径 DecisionBench 全量结果。本卡片独立展示，不参与分数排序，不表示榜单名次或已提交成绩。
+
 
 
 编号行保留 2026-11-14 主仓库快照中 59 条当前记录的前 10 名。Flash、Light 仅按分数区间插入展示：已提交，尚未收录，不计入榜单名次，也不改变已收录模型的编号。这里展示历史快照，不是实时榜单。

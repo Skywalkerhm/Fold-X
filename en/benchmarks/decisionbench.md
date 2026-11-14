@@ -20,6 +20,7 @@ Both runs covered every question with no recorded execution errors or unsupporte
 | Archived rank | Model / submitted version | Accuracy | Record source |
 |---:|---|---:|---|
 |1|Hanno-Labs/bosun-v3.1-1.7b|84.90%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+|**↳ Internal reference**|**Fold-X Pro (27B)**|**>82%**|**INTERNAL RESULT · FULL EVALUATION PENDING** · Internal text-judgment testing reports over 82%. Shown here using that reported lower bound only; the exact score and a comparable full DecisionBench result have not been verified. Placement does not establish a rank or an upper bound of 84.90%, and is not a submitted benchmark result.|
 |2|Hanno-Labs/bosun-v3.1-0.6b|81.18%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |3|mohit67890/imajev-4b|79.69%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |**↳ Reference only**|**Fold-X Flash (9B · 1.3 Deep)**|**76.85%**|**[Submitted, not yet listed](https://github.com/Hanno-Labs/decision-bench-results/pull/85)**|
@@ -32,9 +33,7 @@ Both runs covered every question with no recorded execution errors or unsupporte
 |9|openai/gpt-5.6-luna|69.90%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |10|razorback16/openjev|68.43%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 
-> **Fold-X Pro (27B) · >82%**
->
-> **INTERNAL RESULT · FULL EVALUATION PENDING** — Internal text-judgment testing reports over 82%. A comparable full DecisionBench result has not been verified; this card is separate from score ordering and does not claim a leaderboard position or a submitted result.
+
 
 
 The numbered rows are the Top 10 among 59 current entries in the November 14, 2026 main-branch archive. Flash and Light scores are inserted between adjacent scores for reference only: submitted, not yet listed, and excluded from leaderboard numbering. These are historical positions, not a live leaderboard.
