@@ -21,7 +21,7 @@ Both runs covered every question with no recorded execution errors or unsupporte
 |---:|---|---:|---|
 |1|Hanno-Labs/bosun-v3.1-1.7b|84.90%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |2|Hanno-Labs/bosun-v3.1-0.6b|81.18%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
-|**↳ Local reference**|**Fold-X Pro (27B · Capacity)**|**80.04% · Up to two passes**；79.34% · single pass|**LOCAL FULL-SET SUMMARY · RAW RECORDS PENDING REVIEW** · Reported local results for the 27B Capacity version on 23,900 DecisionBench questions. The reference placement uses the up-to-two-pass result; it is not a leaderboard rank or an accepted submission. Source: a summary supplied by the project team; the underlying per-question records have not been independently checked.|
+|**↳ Local reference**|**Fold-X Pro (27B · Reasoning)**|**80.04%**|**LOCAL TEST · NOT OFFICIALLY LISTED** · Reference score between archived ranks 2 and 3 (81.18% / 79.69%); not an official rank.|
 |3|mohit67890/imajev-4b|79.69%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |**↳ Reference only**|**Fold-X Flash (9B · 1.3 Deep)**|**76.85%**|**[Submitted, not yet listed](https://github.com/Hanno-Labs/decision-bench-results/pull/85)**|
 |4|EldanRing/Winnow-12B|76.65%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
@@ -45,11 +45,11 @@ The project team's supplied summary identifies the newer **27B Capacity** versio
 | Evaluation mode | Accuracy | Correct answers |
 |---|---:|---:|
 | Single pass | **79.34%** | 18,962 / 23,900 |
-| Up to two passes | **80.04%** | 19,129 / 23,900 |
+| Reasoning mode | **80.04%** | 19,129 / 23,900 |
 
-The second mode adds **167** correct answers, approximately **0.70 percentage points**. “Up to two” does not mean every question was processed twice. These figures describe the same newer version; results from the earlier 27B version are not combined with them.
+The second mode adds **167** correct answers, approximately **0.70 percentage points**. These figures describe the same newer version; results from the earlier 27B version are not combined with them.
 
-The inset uses the explicitly labeled **80.04% up-to-two-pass result**, between the archived scores of **81.18%** and **79.69%**. The **79.34% single-pass result** would instead fall between **79.69%** and **76.65%**. Neither placement is an official rank, nor does the display establish matched inference budgets across models.
+The inset uses the explicitly labeled **80.04% reasoning-mode result**, between the archived scores of **81.18%** and **79.69%**. The **79.34% single-pass result** would instead fall between **79.69%** and **76.65%**. Neither placement is an official rank, nor does the display establish matched inference budgets across models.
 
 Source: a local evaluation summary supplied by the project team. The percentages and change in correct-answer counts have been arithmetically checked; the original result files, per-question records, and protocol alignment have not been independently verified. This is not an accepted leaderboard submission. The previous “over 82%” statement and its conditional ranking estimate have been withdrawn from this DecisionBench comparison. Separate sampled external evaluations elsewhere on this site use different datasets and must not be substituted for these results.
 

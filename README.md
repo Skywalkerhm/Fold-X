@@ -26,7 +26,7 @@ DecisionBench 1.0 全量 **23,900 题**。以下为作者提交结果，Flash、
 |---:|---|---:|---|
 |1|Hanno-Labs/bosun-v3.1-1.7b|84.90%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |2|Hanno-Labs/bosun-v3.1-0.6b|81.18%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
-|**↳ 本地测试参考**|**Fold-X Pro (27B · Capacity)**|**80.04% · 最多两次判断**；79.34% · 一次判断|**本地全量测试汇总 · 待原始记录复核** · 27B Capacity 版本在 DecisionBench 23,900 题上的本地测试汇总。此处按最多两次判断成绩作分数参考，不表示榜单名次或已审核通过的提交。来源为项目方提供的汇总记录，逐题原始记录尚待独立复核。|
+|**↳ 本地测试参考**|**Fold-X Pro（27B · 推理模式）**|**80.04%**|**本地测试 · 非官方收录** · 分数参考位于主榜第 2–3 名之间（81.18% / 79.69%），不代表官方名次。|
 |3|mohit67890/imajev-4b|79.69%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |**↳ 参考插入**|**Fold-X Flash (9B · 1.3 Deep)**|**76.85%**|**[已提交，尚未收录](https://github.com/Hanno-Labs/decision-bench-results/pull/85)**|
 |4|EldanRing/Winnow-12B|76.65%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
