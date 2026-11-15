@@ -6,6 +6,8 @@
 
 Fold-X is a multimodal decision model built for accuracy, speed, and efficiency. It turns text and images into judgments, choices, and scores your application can use. Flash-1.3 text and image APIs are available now.
 
+Fold-X Max is currently in training.
+
 [Request API access](docs/contact.md) · [API guide](docs/api.md) · [FAQ](docs/faq.md) · [Full showcase](https://skywalkerhm.github.io/Fold-X/en/index.html)
 
 ## 01 · Benchmark results
@@ -14,8 +16,8 @@ Full **DecisionBench 1.0 evaluation: 23,900 questions**. The following are autho
 
 | Model | Accuracy | Reference position of submitted score | Source |
 |---|---:|---:|---|
-| **Fold-X Flash (9B)** | **76.85%** | **Between archived ranks 3–4** | [Submission #85](https://github.com/Hanno-Labs/decision-bench-results/pull/85) |
-| **Fold-X Light (4B)** | **74.48%** | **Between archived ranks 5–6** | [Submission #82](https://github.com/Hanno-Labs/decision-bench-results/pull/82) |
+| **Fold-X Flash ** | **76.85%** | **Between archived ranks 3–4** | [Submission #85](https://github.com/Hanno-Labs/decision-bench-results/pull/85) |
+| **Fold-X Light ** | **74.48%** | **Between archived ranks 5–6** | [Submission #82](https://github.com/Hanno-Labs/decision-bench-results/pull/82) |
 
 [Task breakdown, comparisons, and ranking methodology →](benchmarks/decisionbench.md)
 
@@ -25,12 +27,12 @@ Full **DecisionBench 1.0 evaluation: 23,900 questions**. The following are autho
 |---:|---|---:|---|
 |1|Hanno-Labs/bosun-v3.1-1.7b|84.90%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |2|Hanno-Labs/bosun-v3.1-0.6b|81.18%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
-|**↳ Local reference**|**Fold-X Pro (27B · Reasoning mode)**|**80.04%**|**Local test · Not officially listed** · Score reference: between archived ranks 2–3.|
-|3|mohit67890/imajev-4b|79.69%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
-|**↳ Reference only**|**Fold-X Flash (9B · 1.3 Deep)**|**76.85%**|**[Submitted, not yet listed](https://github.com/Hanno-Labs/decision-bench-results/pull/85)**|
+|**↳ Local reference**|**Fold-X Pro (Reasoning mode)**|**80.04%**|**Local test · Not officially listed** · Score reference: between archived ranks 2–3.|
+|3|mohit67890/imajev (abbreviated)|79.69%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+|**↳ Reference only**|**Fold-X Flash (1.3 Deep)**|**76.85%**|**[Submitted, not yet listed](https://github.com/Hanno-Labs/decision-bench-results/pull/85)**|
 |4|EldanRing/Winnow-12B|76.65%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |5|ekzhang/openjev-sglang|74.82%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
-|**↳ Reference only**|**Fold-X Light (4B · 1.0 Deep)**|**74.48%**|**[Submitted, not yet listed](https://github.com/Hanno-Labs/decision-bench-results/pull/82)**|
+|**↳ Reference only**|**Fold-X Light (1.0 Deep)**|**74.48%**|**[Submitted, not yet listed](https://github.com/Hanno-Labs/decision-bench-results/pull/82)**|
 |6|z-ai/glm-5.3-flash|74.09%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |7|typesafe/jev-1.13|72.03%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |8|deepseek/deepseek-v4.1-flash|71.00%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|

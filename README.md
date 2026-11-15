@@ -6,6 +6,8 @@
 
 Fold-X 是多模态决策模型，将文字与图像转化为应用可用的判断、选择与评分。当前已提供 Flash-1.3 文字与图像 API。
 
+Fold-X Max 版本正在训练。
+
 [申请 API 试用](docs/contact.md) · [接入说明](docs/api.md) · [常见问题](docs/faq.md) · [完整预览](https://skywalkerhm.github.io/Fold-X/index.html)
 
 ## 01 · 评测成绩
@@ -14,8 +16,8 @@ DecisionBench 1.0 全量 **23,900 题**。以下为作者提交结果，Flash、
 
 |模型|准确率|提交成绩参考位置|结果来源|
 |---|---:|---:|---|
-|Fold-X Flash（9B）|**76.85%**|**位于主榜第 3–4 名分数之间**|[提交 #85](https://github.com/Hanno-Labs/decision-bench-results/pull/85)|
-|Fold-X Light（4B）|**74.48%**|**位于主榜第 5–6 名分数之间**|[提交 #82](https://github.com/Hanno-Labs/decision-bench-results/pull/82)|
+|Fold-X Flash|**76.85%**|**位于主榜第 3–4 名分数之间**|[提交 #85](https://github.com/Hanno-Labs/decision-bench-results/pull/85)|
+|Fold-X Light|**74.48%**|**位于主榜第 5–6 名分数之间**|[提交 #82](https://github.com/Hanno-Labs/decision-bench-results/pull/82)|
 
 [完整任务表现、对照结果与计算口径 →](benchmarks/decisionbench.md)
 
@@ -25,12 +27,12 @@ DecisionBench 1.0 全量 **23,900 题**。以下为作者提交结果，Flash、
 |---:|---|---:|---|
 |1|Hanno-Labs/bosun-v3.1-1.7b|84.90%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |2|Hanno-Labs/bosun-v3.1-0.6b|81.18%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
-|**↳ 本地测试参考**|**Fold-X Pro（27B · 推理模式）**|**80.04%**|**本地测试 · 非官方收录** · 分数参考：位于主榜第 2–3 名之间。|
-|3|mohit67890/imajev-4b|79.69%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
-|**↳ 参考插入**|**Fold-X Flash (9B · 1.3 Deep)**|**76.85%**|**[已提交，尚未收录](https://github.com/Hanno-Labs/decision-bench-results/pull/85)**|
+|**↳ 本地测试参考**|**Fold-X Pro（推理模式）**|**80.04%**|**本地测试 · 非官方收录** · 分数参考：位于主榜第 2–3 名之间。|
+|3|mohit67890/imajev（简称）|79.69%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+|**↳ 参考插入**|**Fold-X Flash (1.3 Deep)**|**76.85%**|**[已提交，尚未收录](https://github.com/Hanno-Labs/decision-bench-results/pull/85)**|
 |4|EldanRing/Winnow-12B|76.65%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |5|ekzhang/openjev-sglang|74.82%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
-|**↳ 参考插入**|**Fold-X Light (4B · 1.0 Deep)**|**74.48%**|**[已提交，尚未收录](https://github.com/Hanno-Labs/decision-bench-results/pull/82)**|
+|**↳ 参考插入**|**Fold-X Light (1.0 Deep)**|**74.48%**|**[已提交，尚未收录](https://github.com/Hanno-Labs/decision-bench-results/pull/82)**|
 |6|z-ai/glm-5.3-flash|74.09%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |7|typesafe/jev-1.13|72.03%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |8|deepseek/deepseek-v4.1-flash|71.00%|[主榜归档](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|

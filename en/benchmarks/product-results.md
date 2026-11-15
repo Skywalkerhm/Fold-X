@@ -46,7 +46,7 @@ Source: historical workflow summaries in team materials dated November 12, 2026.
 
 ## Anonymized enterprise trial: fewer abstentions and errors
 
-An enterprise-supplied report compares Fold-X 9B Deep v1.3 with DeepSeek Chat on the same 453 records and question wording. The table uses the input setting that did not directly supply the field used to derive the target label. The company name, project identifiers, field codes, internal file paths, and raw business records are not published.
+An enterprise-supplied report compares Fold-X Flash v1.3 Deep with DeepSeek Chat on the same 453 records and question wording. The table uses the input setting that did not directly supply the field used to derive the target label. The company name, project identifiers, field codes, internal file paths, and raw business records are not published.
 
 | Metric | DeepSeek Chat | Fold-X | Change |
 |---|---|---|---|

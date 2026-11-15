@@ -6,17 +6,17 @@
 
 The application supports bedding cleanliness checks by flagging fine, low-contrast hair candidates among fabric textures and folds, marking their locations, and opening enlarged views. The focus is visual quality inspection: spotting potential issues, locating the evidence, and supporting human review.
 
-## Capability progression
+## The next step in the capability story
 
 The progression moves from understanding a scene to checking its quality: use small foreign-material candidates to identify areas that need attention and provide visual evidence for review.
 
-## Demo video
+## Watch the demo
 
 [![Fine-detail visual quality inspection](../../assets/cases/fine-detail/candidates.jpg)](../../assets/cases/fine-detail/fold-x-fine-detail.mp4)
 
 [Open player · approx. 46 seconds](https://skywalkerhm.github.io/Fold-X/en/cases/08-fine-detail.html)
 
-## Production applications to explore
+## Where this can help
 
 Turn details that require frame-by-frame searching into candidate locations for human review and records, with potential pilots in linen inspection and textile foreign-material screening.
 
@@ -24,7 +24,7 @@ Turn details that require frame-by-frame searching into candidate locations for 
 - **Textile and surface inspection**：Explore fine-fiber, foreign-material, and small visual-anomaly screening, validated on samples from the intended materials and lighting.
 - **Production footage review and traceability**：Route candidate frames and regions to human reviewers, with timestamps and supporting visual records.
 
-## Observations and evidence limits
+## What the recording shows
 
 - The demo first limits inspection to bedding, then scans the video and displays candidate results.
 - The results list shows candidates at two timestamps. Red boxes mark locations, and opening a result enables progressively enlarged views.

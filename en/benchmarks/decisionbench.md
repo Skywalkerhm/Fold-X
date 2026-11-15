@@ -4,14 +4,14 @@
 
 Snapshot reviewed: November 14, 2026. Full DecisionBench 1.0 evaluation: 23,900 questions.
 
-Product names map to the original submissions as follows: **Fold-X Flash = Fold-X 9B 1.3 Deep**; **Fold-X Light = Fold-X 4B 1.0 Deep**; **Fold-X Pro = 27B**. The product names do not change the submitted model versions or scores.
+Public product names are **Fold-X Flash, Fold-X Light, and Fold-X Pro**. Evaluated versions and scores are unchanged; the original submissions remain available through the source links below.
 
 ## Full-evaluation scores and reference positions
 
 | Model | Primary accuracy | Score interval (not listed) | Successfully processed | Source |
 |---|---:|---:|---:|---|
-| Fold-X Flash (9B) | **76.85%** | **Between archived ranks 3–4** | 23,900 / 23,900 | [PR #85](https://github.com/Hanno-Labs/decision-bench-results/pull/85) |
-| Fold-X Light (4B) | **74.48%** | **Between archived ranks 5–6** | 23,900 / 23,900 | [PR #82](https://github.com/Hanno-Labs/decision-bench-results/pull/82) |
+| Fold-X Flash  | **76.85%** | **Between archived ranks 3–4** | 23,900 / 23,900 | [PR #85](https://github.com/Hanno-Labs/decision-bench-results/pull/85) |
+| Fold-X Light  | **74.48%** | **Between archived ranks 5–6** | 23,900 / 23,900 | [PR #82](https://github.com/Hanno-Labs/decision-bench-results/pull/82) |
 
 Both runs covered every question with no recorded execution errors or unsupported items. This describes successful processing, not correctness of every answer. The reference positions show where the submitted scores fall within the comparison set; they are not official leaderboard placements.
 
@@ -21,12 +21,12 @@ Both runs covered every question with no recorded execution errors or unsupporte
 |---:|---|---:|---|
 |1|Hanno-Labs/bosun-v3.1-1.7b|84.90%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |2|Hanno-Labs/bosun-v3.1-0.6b|81.18%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
-|**↳ Local reference**|**Fold-X Pro (27B · Reasoning mode)**|**80.04%**|**Local test · Not officially listed** · Score reference: between archived ranks 2–3.|
-|3|mohit67890/imajev-4b|79.69%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
-|**↳ Reference only**|**Fold-X Flash (9B · 1.3 Deep)**|**76.85%**|**[Submitted, not yet listed](https://github.com/Hanno-Labs/decision-bench-results/pull/85)**|
+|**↳ Local reference**|**Fold-X Pro (Reasoning mode)**|**80.04%**|**Local test · Not officially listed** · Score reference: between archived ranks 2–3.|
+|3|mohit67890/imajev (abbreviated)|79.69%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
+|**↳ Reference only**|**Fold-X Flash (1.3 Deep)**|**76.85%**|**[Submitted, not yet listed](https://github.com/Hanno-Labs/decision-bench-results/pull/85)**|
 |4|EldanRing/Winnow-12B|76.65%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |5|ekzhang/openjev-sglang|74.82%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
-|**↳ Reference only**|**Fold-X Light (4B · 1.0 Deep)**|**74.48%**|**[Submitted, not yet listed](https://github.com/Hanno-Labs/decision-bench-results/pull/82)**|
+|**↳ Reference only**|**Fold-X Light (1.0 Deep)**|**74.48%**|**[Submitted, not yet listed](https://github.com/Hanno-Labs/decision-bench-results/pull/82)**|
 |6|z-ai/glm-5.3-flash|74.09%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |7|typesafe/jev-1.13|72.03%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
 |8|deepseek/deepseek-v4.1-flash|71.00%|[Archived main branch](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f)|
@@ -55,17 +55,16 @@ Automated comparison comments in the results repository report the following ful
 
 | Submitted model | vs. Jev 1.13 (72.03%) | vs. GPT-5.6 Luna (69.90%) |
 |---|---:|---:|
-| Fold-X Flash (9B) | **+4.82 percentage points** | **+6.95 percentage points** |
-| Fold-X Light (4B) | **+2.45 percentage points** | **+4.58 percentage points** |
+| Fold-X Flash  | **+4.82 percentage points** | **+6.95 percentage points** |
+| Fold-X Light  | **+2.45 percentage points** | **+4.58 percentage points** |
 
-Sources: [9B automated comparison](https://github.com/Hanno-Labs/decision-bench-results/pull/85#issuecomment-6383351153), [4B automated comparison](https://github.com/Hanno-Labs/decision-bench-results/pull/82#issuecomment-6291636964). These are overall accuracy comparisons on the complete test set; relative performance varies by task.
+Sources: [Flash automated comparison](https://github.com/Hanno-Labs/decision-bench-results/pull/85#issuecomment-6383351153), [Light automated comparison](https://github.com/Hanno-Labs/decision-bench-results/pull/82#issuecomment-6291636964). These are overall accuracy comparisons on the complete test set; relative performance varies by task.
 
 ## How the reference positions are calculated
 
 - DecisionBench 1.0 contains 23,900 questions. Results are ordered by `primary_accuracy`; errors and unsupported items count as incorrect.
 - The main-repository snapshot is dated November 14, 2026, at commit `e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f`. Applying the leaderboard frontend’s latest-revision selection rule to 60 result files produces 59 current entries.
-- The numbered rows are the Top 10 among 59 current entries in the November 14, 2026 main-branch archive. Flash and Light scores are inserted between adjacent scores for reference only: submitted, not yet listed, and excluded from leaderboard numbering. These are historical positions, not a live leaderboard.
-- At the snapshot date, the 4B PR had been closed by a bot without merging; the 9B PR remained open and unmerged. Both are author-submitted results. Automated comparisons do not constitute independent reproduction or certification by the benchmark organizers.
+- At the snapshot date, the Light PR had been closed by a bot without merging; the Flash PR remained open and unmerged. Both are author-submitted results. Automated comparisons do not constitute independent reproduction or certification by the benchmark organizers.
 
 See the [frozen results repository](https://github.com/Hanno-Labs/decision-bench-results/tree/e2d6a133cee91b9d8c6fbd076b21f32f3d75c81f) and the [frontend revision-selection rule](https://github.com/Hanno-Labs/decision-bench-leaderboard/blob/1aa3f4d5273dcf3e450be473e96df0a74def4b82/src/lib/data/service.ts).
 
