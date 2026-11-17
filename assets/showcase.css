@@ -29,3 +29,13 @@ tr.pro-insert .pro-reference{margin:0 10px 0 22px}@media(max-width:700px){tr.pro
 .submission-card .submission-note{font-size:14px;line-height:1.8;margin:8px 0 0}.submission-note a{white-space:nowrap}
 
 .product-tagline .tagline-context{display:block;font-size:clamp(22px,2.5vw,34px);line-height:1.5;font-weight:600;letter-spacing:0;margin-bottom:14px}.product-tagline{overflow-wrap:break-word}
+
+/* Readable per-scenario results on narrow screens. */
+@media(max-width:700px){
+.scenario-results,.scenario-results tbody{display:block;width:100%}
+.scenario-results tr{display:block;margin:0 0 16px;padding:12px;border:1px solid #dce3da;border-radius:10px}
+.scenario-results tr:has(th){display:none}
+.scenario-results td{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;padding:8px 0;min-width:0;border:0;overflow-wrap:anywhere}
+.scenario-results td::before{content:attr(data-label);font-weight:600;color:#365b50}
+.scenario-results td:first-child{border-bottom:1px solid #dce3da;margin-bottom:4px}
+}
