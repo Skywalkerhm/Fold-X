@@ -135,6 +135,12 @@ Fold-X Flash 执白，与 DeepSeek 执黑进行 19×19 围棋对弈。通过连�
 
 [观看视频与关键截图](cases/03-robot.md) · [打开播放器](https://skywalkerhm.github.io/Fold-X/cases/03-robot.html)
 
+**跟随目标，持续判断，完成投递**
+
+在 UE 城市仿真中，Fold-X 支持机器人识别并跟随指定领路对象，在目标暂时被遮挡时保持任务连续性，并根据现场情况选择继续、减速或等待观察，直至完成投递。
+
+[观看完整场景与结果 →](https://skywalkerhm.github.io/Fold-X/cases/03-robot.html#follow-delivery)
+
 ### 04 · 多点协同决策｜交通信号调度
 
 Fold-X 根据仿真中不断更新的车流，参与 62 个路口的信号决策。一个路口的放行会影响后续路段，局部选择需要放到整个路网中观察。

@@ -135,6 +135,12 @@ In an Unreal Engine city simulation, Fold-X makes ongoing decisions using weathe
 
 [Video and key frames](cases/03-robot.md) · [Open player](https://skywalkerhm.github.io/Fold-X/en/cases/03-robot.html)
 
+**Follow a target. Adapt along the way. Complete the delivery.**
+
+In an Unreal Engine city simulation, Fold-X supports identifying and following a designated guide, maintaining task continuity when the target is temporarily occluded, and choosing whether to continue, slow down, or wait and observe until delivery is complete.
+
+[Watch all scenarios and review results →](https://skywalkerhm.github.io/Fold-X/en/cases/03-robot.html#follow-delivery)
+
 ### 04 · Coordinated decisions — Traffic signal coordination
 
 Fold-X participates in signal decisions across 62 intersections as simulated traffic conditions change. Releasing traffic at one junction affects downstream roads, so each local choice needs to be considered in the context of the wider network.
