@@ -39,3 +39,6 @@ tr.pro-insert .pro-reference{margin:0 10px 0 22px}@media(max-width:700px){tr.pro
 .scenario-results td::before{content:attr(data-label);font-weight:600;color:#365b50}
 .scenario-results td:first-child{border-bottom:1px solid #dce3da;margin-bottom:4px}
 }
+
+.journey{min-width:0}.route{min-width:0;overflow-wrap:anywhere}
+@media(max-width:400px){.journey{grid-template-columns:minmax(0,1fr)}}
