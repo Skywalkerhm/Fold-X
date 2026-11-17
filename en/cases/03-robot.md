@@ -4,16 +4,16 @@
 
 **Decisions in complex environments**
 
-In an Unreal Engine city simulation, Fold-X makes ongoing decisions using weather, pedestrians, vehicles, signals, and task progress, completing three deliveries and returning to the station after each. The updated demo adds randomized scenario changes and incorporates their effects on visibility, passage conditions, and interactions into decision-making.
+In an Unreal Engine city simulation, Fold-X makes ongoing decisions using weather, pedestrians, vehicles, signals, and task progress, completing three deliveries and returning to the station after each. Randomized changes in the scenario—and their effects on visibility, passage conditions, and interactions—inform ongoing decisions.
 
 ## The next step in the capability story
 
 Beyond choosing a timely action, the robot follows a complete task cycle in changing conditions: depart, assess the situation, deliver, return, and begin the next order.
 
-## What is new in this demo
+## Decision-making in this scenario
 
 - Randomized changes inform decisions: weather changes and dynamic pedestrian and vehicle states update the information Fold-X uses to move, wait, or adjust. Execution remains subject to safety constraints.
-- From a short segment to complete tasks: the recording covers three deliveries and three returns, including outbound and return road crossings.
+- Complete task execution: the recording covers three deliveries and three returns, including outbound and return road crossings.
 - Interaction during a task: Fold-X decides whether and when to respond to a pedestrian based on the current situation. An external language model generates the dialogue text.
 
 ## Watch the demo
@@ -32,8 +32,8 @@ Explore continuous task decisions for campus delivery, inspection, and service r
 
 ## What the recording shows
 
-- Complete three-order baseline: three deliveries and three returns. Logs record no pedestrian or vehicle contact and one static curb contact.
-- Separate curb-handling check: one delivery and return, one proactive step-up, and no recorded contact. This is not a zero-contact rerun of all three orders after the fix.
+- Complete three-order recording: three deliveries and three returns. Logs record no pedestrian or vehicle contact and one static curb contact.
+- Separate curb-handling check: one delivery and return, one proactive step-up, and no recorded contact. These results apply only to this separate run.
 - The randomized scenario mechanism and the flow of observed conditions into decisions were checked. No random starting point was triggered in this run, and aggregate results across random seeds are not yet available.
 
 This is a single Unreal Engine simulation run, not physical-robot deployment or a success-rate study across randomized trials. Routes are chosen from a predefined set of candidates; this is not unrestricted autonomous exploration.

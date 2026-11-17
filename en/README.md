@@ -126,7 +126,7 @@ With enemies moving, terrain changing, and limited time to act, Fold-X repeatedl
 
 ### 03 · Decisions in complex environments — Robot courier
 
-In an Unreal Engine city simulation, Fold-X makes ongoing decisions using weather, pedestrians, vehicles, signals, and task progress, completing three deliveries and returning to the station after each. The updated demo adds randomized scenario changes and incorporates their effects on visibility, passage conditions, and interactions into decision-making.
+In an Unreal Engine city simulation, Fold-X makes ongoing decisions using weather, pedestrians, vehicles, signals, and task progress, completing three deliveries and returning to the station after each. Randomized changes in the scenario—and their effects on visibility, passage conditions, and interactions—inform ongoing decisions.
 
 
 **5× playback · approx. 4 minutes · UE simulation**
