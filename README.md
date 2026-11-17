@@ -126,9 +126,12 @@ Fold-X Flash 执白，与 DeepSeek 执黑进行 19×19 围棋对弈。通过连�
 
 ### 03 · 复杂环境决策｜机器人快递员
 
-在 Unreal Engine（UE）派送仿真中，为机器人设定目标，环境要素、行人与车辆随机投放。Fold-X 根据当下的外界信息，持续决定前进、等待或调整行动。
+在 UE 城市仿真中，Fold-X 根据天气、行人、车辆、信号和任务进展持续作出判断，完成三单配送及返站。新版增加了随机场景变化，并将变化带来的能见度、通行条件和交互影响纳入决策。
 
-[![机器人快递员](assets/cases/robot/wait-for-signal.jpg)](assets/cases/robot/fold-x-robot-delivery.mp4)
+
+**5 倍速播放 · 约 4 分钟 · UE 仿真**
+
+[![机器人快递员](assets/cases/robot/returned.jpg)](assets/cases/robot/foldx_three_orders_return_dynamic_20261117_v3_5x.mp4)
 
 [观看视频与关键截图](cases/03-robot.md) · [打开播放器](https://skywalkerhm.github.io/Fold-X/cases/03-robot.html)
 

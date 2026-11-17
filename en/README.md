@@ -126,9 +126,12 @@ With enemies moving, terrain changing, and limited time to act, Fold-X repeatedl
 
 ### 03 · Decisions in complex environments — Robot courier
 
-In an Unreal Engine delivery simulation, the robot receives a destination while environmental elements, pedestrians, and vehicles are placed randomly. Fold-X uses the information available at each step to decide whether to move, wait, or adjust its action.
+In an Unreal Engine city simulation, Fold-X makes ongoing decisions using weather, pedestrians, vehicles, signals, and task progress, completing three deliveries and returning to the station after each. The updated demo adds randomized scenario changes and incorporates their effects on visibility, passage conditions, and interactions into decision-making.
 
-[![Robot courier](../assets/cases/robot/wait-for-signal.jpg)](../assets/cases/robot/fold-x-robot-delivery.mp4)
+
+**5× playback · approx. 4 minutes · UE simulation**
+
+[![Robot courier](../assets/cases/robot/returned.jpg)](../assets/cases/robot/foldx_three_orders_return_dynamic_20261117_v3_5x.mp4)
 
 [Video and key frames](cases/03-robot.md) · [Open player](https://skywalkerhm.github.io/Fold-X/en/cases/03-robot.html)
 
