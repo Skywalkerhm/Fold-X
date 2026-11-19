@@ -29,9 +29,9 @@ Fold-X Pro 80.70 · Max 80.19 · Flash 80.15 · Light 77.54. Within the supplied
 |19|Florence-2-large|28.95|
 |20|Florence-2-large-ft|27.85|
 
-Source: the comparison table and screenshot supplied by the project team on November 18, 2026. Numbered rows retain the supplied reference ranks; Fold-X results are under official review and are not yet listed; rows are inserted by score, not as official leaderboard placements. These are localization composite scores, not accuracy percentages, and are separate from DecisionBench results.
+Source: the comparison table and screenshot supplied by the project team on November 18, 2026. Numbered rows retain the supplied reference ranks; Fold-X has submitted an application and is awaiting official listing; rows are inserted by score, not as official leaderboard placements. These are localization composite scores, not accuracy percentages, and are separate from DecisionBench results.
 
-The scoring protocol, sample size, and per-item results were not supplied for this update, so protocol alignment has not been independently verified. The project team confirmed the official-review status on November 19, 2026. Max has completed training; contact the team for service availability.
+The scoring protocol, sample size, and per-item results were not supplied for this update, so protocol alignment has not been independently verified. The project team confirmed the application submission on November 19, 2026. Max has completed training; contact the team for service availability.
 
 [← Overview](../README.md)
 
