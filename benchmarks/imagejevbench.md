@@ -2,37 +2,37 @@
 
 Fold-X Pro 80.70、Max 80.19、Flash 80.15、Light 77.54。在所提供的参照集合中，合并排序参考位置分别为第 4、5、6、8 位。
 
-|参照榜原名次|模型|定位综合分|记录说明|
-|---:|---|---:|---|
-|1|GLM-4.6V|89.47|原榜记录|
-|2|Qwen3-VL-32B Instruct|85.27|原榜记录|
-|3|H2O Lightning v1.4.1 (Serving Package)|84.90|原榜记录|
-|**↳**|**Fold-X Pro**|**80.70**|合并排序参考位置：第 4 位；官方复核中，尚未收录；非官方名次。|
-|**↳**|**Fold-X Max**|**80.19**|合并排序参考位置：第 5 位；官方复核中，尚未收录；非官方名次。|
-|**↳**|**Fold-X Flash**|**80.15**|合并排序参考位置：第 6 位；官方复核中，尚未收录；非官方名次。|
-|4|Claude Haiku 5.5|78.81|原榜记录|
-|**↳**|**Fold-X Light**|**77.54**|合并排序参考位置：第 8 位；官方复核中，尚未收录；非官方名次。|
-|5|Gemma 4 IT|76.44|原榜记录|
-|6|Qwen3-VL-235B-A22B Instruct|75.99|原榜记录|
-|7|Qwen3-VL-30B-A3B Instruct|75.86|原榜记录|
-|8|Jev 1.14.0|75.71|原榜记录|
-|9|Qwen3.5|74.69|原榜记录|
-|10|Qwen3-VL-8B Instruct|72.78|原榜记录|
-|11|GPT-6 Luna|70.70|原榜记录|
-|12|Qwen3.6|63.43|原榜记录|
-|13|H2O Lightning v1.1 (Image)|62.58|原榜记录|
-|14|Imajev|47.13|原榜记录|
-|15|H2O Lightning v1.4.1 (Weights Only)|41.13|原榜记录|
-|16|Qwen3.5 （Imajev 基座）|38.36|原榜记录|
-|17|Imajev|37.66|原榜记录|
-|18|Moondream 3 (Preview)|35.72|原榜记录|
-|19|Florence-2-large|28.95|原榜记录|
-|20|Florence-2-large-ft|27.85|原榜记录|
+|参照榜原名次|模型|定位综合分|
+|---:|---|---:|
+|1|GLM-4.6V|89.47|
+|2|Qwen3-VL-32B Instruct|85.27|
+|3|H2O Lightning 4B v1.4.1 (H2O serving package)|84.90|
+|**↳**|**Fold-X Pro**|**80.70**|
+|**↳**|**Fold-X Max**|**80.19**|
+|**↳**|**Fold-X Flash**|**80.15**|
+|4|Claude Haiku 5.5|78.81|
+|**↳**|**Fold-X Light**|**77.54**|
+|5|Gemma 4 31B IT|76.44|
+|6|Qwen3-VL-235B-A22B Instruct|75.99|
+|7|Qwen3-VL-30B-A3B Instruct|75.86|
+|8|Jev 1.14.0|75.71|
+|9|Qwen3.5-397B-A17B|74.69|
+|10|Qwen3-VL-8B Instruct|72.78|
+|11|GPT-6 Luna|70.70|
+|12|Qwen3.6-35B-A3B|63.43|
+|13|H2O Lightning 4B (image, v1.1)|62.58|
+|14|Imajev-4B|47.13|
+|15|H2O Lightning 4B v1.4.1 (weights only)|41.13|
+|16|Qwen3.5-4B (base of Imajev-4B)|38.36|
+|17|Imajev-9B|37.66|
+|18|Moondream 3 (preview)|35.72|
+|19|Florence-2-large|28.95|
+|20|Florence-2-large-ft|27.85|
 
 来源：项目方于 2026-11-18 提供的对照表与截图。编号行保留所提供的参照榜原名次；Fold-X 正在接受官方复核，尚未收录；按分数插入展示，不表示官方收录名次。“定位综合分”不是准确率百分比，与 DecisionBench 成绩分别呈现。
 
-本次未提供评分细则、样本量及逐项原始结果，尚未独立核验评测口径一致性。官方复核状态由项目方于 2026-11-19 确认。重复模型名称按原表保留，不推定缺失的规格或配置。Max 已完成训练；服务开放情况请联系团队确认。
+本次未提供评分细则、样本量及逐项原始结果，尚未独立核验评测口径一致性。官方复核状态由项目方于 2026-11-19 确认。Max 已完成训练；服务开放情况请联系团队确认。
 
 [← 返回首页](../README.md)
 
-Qwen3-VL 各条记录对应不同模型规格；名称与分数已对照 H2O.ai 公布的 ImageJevBench Box Track 记录核验。 [Source](https://github.com/h2oai/benchmarks#3-imagejevbench-box-track)
+参照模型的完整名称与分数已逐项对照 ImageJevBench Box Track 原榜核验。 [Source](https://benchmarkheaven.com/image-jev-bench)
