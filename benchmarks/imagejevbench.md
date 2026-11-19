@@ -5,7 +5,7 @@ Fold-X Pro 80.70、Max 80.19、Flash 80.15、Light 77.54。在所提供的参照
 |参照榜原名次|模型|定位综合分|记录说明|
 |---:|---|---:|---|
 |1|GLM-4.6V|89.47|原榜记录|
-|2|Qwen3-VL Instruct|85.27|原榜记录|
+|2|Qwen3-VL-32B Instruct|85.27|原榜记录|
 |3|H2O Lightning v1.4.1 (Serving Package)|84.90|原榜记录|
 |**↳**|**Fold-X Pro**|**80.70**|合并排序参考位置：第 4 位；官方复核中，尚未收录；非官方名次。|
 |**↳**|**Fold-X Max**|**80.19**|合并排序参考位置：第 5 位；官方复核中，尚未收录；非官方名次。|
@@ -13,11 +13,11 @@ Fold-X Pro 80.70、Max 80.19、Flash 80.15、Light 77.54。在所提供的参照
 |4|Claude Haiku 5.5|78.81|原榜记录|
 |**↳**|**Fold-X Light**|**77.54**|合并排序参考位置：第 8 位；官方复核中，尚未收录；非官方名次。|
 |5|Gemma 4 IT|76.44|原榜记录|
-|6|Qwen3-VL Instruct|75.99|原榜记录|
-|7|Qwen3-VL Instruct|75.86|原榜记录|
+|6|Qwen3-VL-235B-A22B Instruct|75.99|原榜记录|
+|7|Qwen3-VL-30B-A3B Instruct|75.86|原榜记录|
 |8|Jev 1.14.0|75.71|原榜记录|
 |9|Qwen3.5|74.69|原榜记录|
-|10|Qwen3-VL Instruct|72.78|原榜记录|
+|10|Qwen3-VL-8B Instruct|72.78|原榜记录|
 |11|GPT-6 Luna|70.70|原榜记录|
 |12|Qwen3.6|63.43|原榜记录|
 |13|H2O Lightning v1.1 (Image)|62.58|原榜记录|
@@ -34,3 +34,5 @@ Fold-X Pro 80.70、Max 80.19、Flash 80.15、Light 77.54。在所提供的参照
 本次未提供评分细则、样本量及逐项原始结果，尚未独立核验评测口径一致性。官方复核状态由项目方于 2026-11-19 确认。重复模型名称按原表保留，不推定缺失的规格或配置。Max 已完成训练；服务开放情况请联系团队确认。
 
 [← 返回首页](../README.md)
+
+Qwen3-VL 各条记录对应不同模型规格；名称与分数已对照 H2O.ai 公布的 ImageJevBench Box Track 记录核验。 [Source](https://github.com/h2oai/benchmarks#3-imagejevbench-box-track)
