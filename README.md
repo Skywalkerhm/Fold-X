@@ -6,7 +6,7 @@
 
 Fold-X 是多模态决策模型，将文字与图像转化为应用可用的判断、选择与评分。当前已提供 Flash-1.3 文字与图像 API。
 
-Fold-X Max 版本正在训练。
+Fold-X Max 已完成训练。
 
 [申请 API 试用](docs/contact.md) · [接入说明](docs/api.md) · [常见问题](docs/faq.md) · [完整预览](https://skywalkerhm.github.io/Fold-X/index.html)
 

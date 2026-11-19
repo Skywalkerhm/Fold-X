@@ -6,7 +6,7 @@
 
 Fold-X is a multimodal decision model built for accuracy, speed, and efficiency. It turns text and images into judgments, choices, and scores your application can use. Flash-1.3 text and image APIs are available now.
 
-Fold-X Max is currently in training.
+Fold-X Max has completed training.
 
 [Request API access](docs/contact.md) · [API guide](docs/api.md) · [FAQ](docs/faq.md) · [Full showcase](https://skywalkerhm.github.io/Fold-X/en/index.html)
 

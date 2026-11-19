@@ -31,6 +31,6 @@ Fold-X Pro 80.70 · Max 80.19 · Flash 80.15 · Light 77.54. Within the supplied
 
 Source: the comparison table and screenshot supplied by the project team on November 18, 2026. Numbered rows retain the supplied reference ranks; Fold-X rows are inserted by score and are not official leaderboard placements. These are localization composite scores, not accuracy percentages, and are separate from DecisionBench results.
 
-The scoring protocol, sample size, and per-item results were not supplied for this update, so protocol alignment and official listing have not been independently verified. Repeated model names are retained as supplied; no missing model sizes or configurations are inferred. Max remains in training; a reference score does not imply service availability.
+The scoring protocol, sample size, and per-item results were not supplied for this update, so protocol alignment and official listing have not been independently verified. Repeated model names are retained as supplied; no missing model sizes or configurations are inferred. Max has completed training; contact the team for service availability.
 
 [← Overview](../README.md)
