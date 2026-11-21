@@ -231,3 +231,10 @@ General product questions can be posted in this repository’s **Issues** tab wh
 ---
 
 This repository contains product information, benchmark references, and demonstration media. Core implementation and model weights are not published here. Third-party media credits are listed in the relevant case notes.
+
+## Supplementary appendix: VisNumBench visual numerical reasoning
+
+A four-tier comparison across 1,913 visual numerical questions. Includes per-category results and two reference sources. Ranks are locally recomputed for each Fold-X model separately, not official leaderboard placements. Full report in Chinese.
+
+[Open supplementary report (Chinese)](../appendices/visnumbench.html)
+

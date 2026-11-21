@@ -220,6 +220,13 @@ Fold-X 根据仿真中不断更新的车流，参与 62 个路口的信号决策
 
 [视频、关键截图与应用范围](cases/08-fine-detail.md) · [打开播放器](https://skywalkerhm.github.io/Fold-X/cases/08-fine-detail.html)
 
+
+## 补充附件：VisNumBench 视觉数值判断
+
+1,913 道视觉数值题的四档逐榜对照，包含分类结果与两种参照口径。名次为各型号分别对照参照模型的本地复算位置，不代表官方收录名次。
+
+[查看补充附件](appendices/visnumbench.html)
+
 ## 试用与联系
 
 申请 API 试用或讨论业务场景，请联系 [刘先生 — msfocus@gmail.com](mailto:msfocus@gmail.com) 或 [黄先生 — huangminl4@hotmail.com](mailto:huangminl4@hotmail.com)。
