@@ -234,7 +234,7 @@ This repository contains product information, benchmark references, and demonstr
 
 ## Supplementary appendix: VisNumBench visual numerical reasoning
 
-A four-tier comparison across 1,913 visual numerical questions. Includes per-category results and two reference sources. Ranks are locally recomputed for each Fold-X model separately, not official leaderboard placements. Full report in Chinese.
+Turning visual information into judgments about quantities and spatial dimensions: interpreting counts, size, distance and geometry to select the correct numerical answer. The appendix covers 1,913 multiple-choice questions across four Fold-X tiers. Accuracy measures correct answers, not physical measurement precision; each tier is ranked separately against public reference models. Full report in Chinese.
 
 [Open supplementary report (Chinese)](../appendices/visnumbench.html)
 
