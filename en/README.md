@@ -125,7 +125,7 @@ Team evaluation summary dated October 20, 2026. Scores apply to the specified ta
 
 ## Research behind the work
 
-Three public preprints document the team's research on inference quality, efficiency evaluation, and mathematical task performance. They provide research context, rather than certification of the current Fold-X API or the eight demos.
+Three public preprints document the team's research on inference quality, efficiency evaluation, and mathematical task performance. They provide research context, rather than certification of the current Fold-X API or the nine demos.
 
 - **[Virtual MoE — inference quality and reliability](https://arxiv.org/abs/2504.03739)**: studies inference quality and hallucination mitigation in a small-model setting. Its reported findings are specific to the evaluated model and tasks.
 - **[SemanticFold — evaluating efficiency and capability together](https://arxiv.org/abs/2610.10304)**: examines whether different capability measures are preserved under compression. The measures can move in different directions; a gain in one does not establish a gain in all.
@@ -133,7 +133,7 @@ Three public preprints document the team's research on inference quality, effici
 
 These are arXiv preprints, not evidence of peer-review acceptance or independent product certification. Consult each paper for its experimental conditions and limitations. No unpublished implementation details are included here.
 
-## 03 · Eight capabilities to explore
+## 03 · Nine capabilities to explore
 
 **Decision-making:** strategic judgment → timely action → complex environments → coordination across multiple decision points.
 
@@ -220,6 +220,13 @@ Turn details that require frame-by-frame searching into candidate locations for 
 
 [Video, key frames, and application scope](cases/08-fine-detail.md) · [Open player](https://skywalkerhm.github.io/Fold-X/en/cases/08-fine-detail.html)
 
+
+### 09 · Video generation & cross-shot consistency
+
+A 50-second science-fiction sample illustrates an exploration of one-click video generation, with attention to character appearance, settings, lighting and color across shots.
+
+[ One-click video generation · Silent Payload ](cases/09-video-generation.md) · [Video](https://skywalkerhm.github.io/Fold-X/en/cases/09-video-generation.html)
+
 ## Get started
 
 Request API access or discuss your task with [Mr. Liu — msfocus@gmail.com](mailto:msfocus@gmail.com) or [Mr. Huang — huangminl4@hotmail.com](mailto:huangminl4@hotmail.com).
@@ -238,9 +245,3 @@ Turning visual information into judgments about quantities and spatial dimension
 
 [Open supplementary report (Chinese)](../appendices/visnumbench.html)
 
-
-## Extended showcase · Video generation & cross-shot consistency
-
-A 50-second science-fiction sample illustrates an exploration of one-click video generation, with attention to character appearance, settings, lighting and color across shots.
-
-[ One-click video generation · Silent Payload ](cases/09-video-generation.md) · [Video](https://skywalkerhm.github.io/Fold-X/en/cases/09-video-generation.html)
