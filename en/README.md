@@ -238,3 +238,9 @@ Turning visual information into judgments about quantities and spatial dimension
 
 [Open supplementary report (Chinese)](../appendices/visnumbench.html)
 
+
+## Extended showcase · Video generation & cross-shot consistency
+
+A 50-second science-fiction sample illustrates an exploration of one-click video generation, with attention to character appearance, settings, lighting and color across shots.
+
+[ One-click video generation · Silent Payload ](cases/09-video-generation.md) · [Video](https://skywalkerhm.github.io/Fold-X/en/cases/09-video-generation.html)
