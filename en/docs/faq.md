@@ -10,7 +10,7 @@ A multimodal decision model for judgments, choices, and scoring across text and 
 
 Classification, condition checks, candidate selection, scoring, or image-condition screening. Start with a task that has clear inputs, outputs, and acceptance criteria, and test representative samples.
 
-## Can I run the nine demos directly through the API?
+## Can I run the ten demos directly through the API?
 
 The API supplies decisions. Video search, games, robotics, and traffic applications also need frame extraction, environment connections, action execution, or other integration. A demo is not a promise that the complete application is a standard service.
 

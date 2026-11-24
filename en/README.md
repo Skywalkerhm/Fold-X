@@ -125,7 +125,7 @@ Team evaluation summary dated October 20, 2026. Scores apply to the specified ta
 
 ## Research behind the work
 
-Three public preprints document the team's research on inference quality, efficiency evaluation, and mathematical task performance. They provide research context, rather than certification of the current Fold-X API or the nine demos.
+Three public preprints document the team's research on inference quality, efficiency evaluation, and mathematical task performance. They provide research context, rather than certification of the current Fold-X API or the ten demos.
 
 - **[Virtual MoE — inference quality and reliability](https://arxiv.org/abs/2504.03739)**: studies inference quality and hallucination mitigation in a small-model setting. Its reported findings are specific to the evaluated model and tasks.
 - **[SemanticFold — evaluating efficiency and capability together](https://arxiv.org/abs/2610.10304)**: examines whether different capability measures are preserved under compression. The measures can move in different directions; a gain in one does not establish a gain in all.
@@ -133,7 +133,7 @@ Three public preprints document the team's research on inference quality, effici
 
 These are arXiv preprints, not evidence of peer-review acceptance or independent product certification. Consult each paper for its experimental conditions and limitations. No unpublished implementation details are included here.
 
-## 03 · Nine capabilities to explore
+## 03 · Ten capabilities to explore
 
 **Decision-making:** strategic judgment → timely action → complex environments → coordination across multiple decision points.
 
@@ -226,6 +226,12 @@ Turn details that require frame-by-frame searching into candidate locations for 
 A 50-second science-fiction sample illustrates an exploration of one-click video generation, with attention to character appearance, settings, lighting and color across shots.
 
 [ One-click video generation · Silent Payload ](cases/09-video-generation.md) · [Video](https://skywalkerhm.github.io/Fold-X/en/cases/09-video-generation.html)
+
+### 10 · Depth estimation and 3D reconstruction
+
+Estimate depth from a kitchen photo, or turn a short video taken around a stack of blocks into a 3D model you can rotate.
+
+[Case details](cases/10-depth-workbench.md) · [Open the depth workbench](https://121.41.214.107:8880/)
 
 ## Get started
 
