@@ -6,8 +6,17 @@ Estimate depth from a kitchen photo, or turn a short video taken around a stack 
 
 Choose the built-in kitchen image. Compare the photo with the depth map, then move the focus point to see how foreground and background blur changes. The workbench reported 0.86 seconds of model inference for this image.
 
+![Kitchen photo](../../assets/cases/depth-workbench/kitchen-photo.jpg)
+
+![Estimated depth. The nearby counter appears warm, the distant doorway cool.](../../assets/cases/depth-workbench/kitchen-depth.jpg)
+
 ## Reconstruct the blocks
 
 Choose the built-in eight-second orbit video. In our demo run, the workbench aligned all 80 views and reported 63.1 seconds for reconstruction. Rotate the result and switch between the color point cloud and the surface to inspect the blocks from different angles. The reconstruction shows their relative scale.
+
+![Reference frame from the orbit video](../../assets/cases/depth-workbench/blocks-frame.jpg)
+
+![Reconstructed 3D surface of the blocks, shown at relative scale.](../../assets/cases/depth-workbench/blocks-surface.jpg)
+
 
 [Open the depth workbench](https://121.41.214.107:8880/)

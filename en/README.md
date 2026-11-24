@@ -231,6 +231,9 @@ A 50-second science-fiction sample illustrates an exploration of one-click video
 
 Estimate depth from a kitchen photo, or turn a short video taken around a stack of blocks into a 3D model you can rotate.
 
+![Reconstructed 3D surface of the blocks, shown at relative scale.](../assets/cases/depth-workbench/blocks-surface.jpg)
+
+
 [Case details](cases/10-depth-workbench.md) · [Open the depth workbench](https://121.41.214.107:8880/)
 
 ## Get started

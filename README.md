@@ -232,6 +232,9 @@ Fold-X 根据仿真中不断更新的车流，参与 62 个路口的信号决策
 
 从一张厨房照片中看出前后景的远近，或用一段绕积木拍摄的视频，生成可旋转查看的三维模型。
 
+![积木的三维重建表面，展示各部分的形状与相对大小。](assets/cases/depth-workbench/blocks-surface.jpg)
+
+
 [案例详情](cases/10-depth-workbench.md) · [打开深度工作台，试用内置示例](https://121.41.214.107:8880/)
 
 ## 补充附件：VisNumBench 视觉数值判断

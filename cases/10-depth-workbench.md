@@ -6,8 +6,17 @@
 
 选择“加载默认样图”，对照厨房照片和深度图观察前景与背景，再移动焦点，观察清晰区域与虚化效果如何变化。这张样图在本次演示中显示的模型推理用时为 0.86 秒。
 
+![厨房示例原图](../assets/cases/depth-workbench/kitchen-photo.jpg)
+
+![估算深度图。近处的台面呈暖色，远处的门洞呈冷色。](../assets/cases/depth-workbench/kitchen-depth.jpg)
+
 ## 绕积木看一圈
 
 选择“试用环拍视频”，加载 8 秒彩色积木示例。本次演示配准了全部 80 个视角，页面显示重建用时 63.1 秒。拖动旋转结果，切换原始彩色点云和三维表面，就能从不同角度查看积木的形状和相对大小。
+
+![积木环拍视频参考帧](../assets/cases/depth-workbench/blocks-frame.jpg)
+
+![积木的三维重建表面，展示各部分的形状与相对大小。](../assets/cases/depth-workbench/blocks-surface.jpg)
+
 
 [打开深度工作台，试用内置示例](https://121.41.214.107:8880/)
