@@ -2,7 +2,7 @@
 
 [中文版](../../docs/api.md) · [Overview](../README.md)
 
-Fold-X is a multimodal decision model. **Fold-X Flash-1.3 currently provides text-decision and image-condition APIs over HTTPS.** Contact the team about Light and Pro access; a model appearing in a benchmark does not automatically mean it is available on the current service.
+Fold-X is a real-time multimodal analysis model trained at low cost. **Fold-X Flash-1.3 currently provides text-decision and image-condition APIs over HTTPS.** Contact the team about Light and Pro access; a model appearing in a benchmark does not automatically mean it is available on the current service.
 
 ## Available capabilities
 

@@ -2,9 +2,9 @@
 
 [English](README.md) | [中文版](../README.md)
 
-**Fold-X: a multimodal decision model trained at low cost—more accurate, faster, and more cost-efficient.**
+**Fold-X: a real-time multimodal analysis model trained at low cost—more accurate, faster, and more cost-efficient.**
 
-Fold-X is a multimodal decision model built for accuracy, speed, and efficiency. It turns text and images into judgments, choices, and scores your application can use. Flash-1.3 text and image APIs are available now.
+Fold-X turns text and images into judgments, choices, and scores your application can use. Flash-1.3 text and image APIs are available now.
 
 Fold-X Max has completed training.
 

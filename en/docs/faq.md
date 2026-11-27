@@ -4,7 +4,7 @@
 
 ## What is Fold-X?
 
-A multimodal decision model for judgments, choices, and scoring across text and images, designed for accuracy, speed, and efficiency. Flash-1.3 is currently available through an API.
+A real-time multimodal analysis model trained at low cost for judgments, choices, and scoring across text and images, designed for accuracy, speed, and efficiency. Flash-1.3 is currently available through an API.
 
 ## What should I try first?
 
